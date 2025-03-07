@@ -33,20 +33,20 @@ h1{
     text-transform: uppercase;
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.5);
 }
-/* ========about us hero-tittle style======= */
 
 /* ========about us grid======= */
 .about-us-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    /* margin-top: 2rem; */
 }
-/* ========about us grid======= */
 
 /* ========about us content======= */
-.img-box {
-    margin-left: 5rem;
+
+.aboutUs-content .pic img {
+    width: 400px;
+    height: 700px;
+    margin-left: 1rem;
 }
 
 .aboutUs-content .pic {
@@ -59,9 +59,9 @@ h1{
     content: "";
     background-color: #e8e5fc;
     position: absolute;
-    bottom: 5px;
+    bottom: 55px;
     left: 0;
-    width: 450px;
+    width: 480px;
     height: 70vh;
     z-index: -1;
    border-radius: 2rem;
@@ -74,7 +74,7 @@ h1{
     background-color: white;
     position: absolute;
     left: 10%;
-    margin-top: -5rem;
+    margin-top: -9rem;
     padding: 1rem;
     border-radius: 1rem;
     animation: move 3s infinite;
@@ -93,9 +93,6 @@ h1{
     }
 }
 
-/* ========about us content======= */
-
-
 /* ========about us content2======= */
 
 .aboutUs-content2 {
@@ -104,6 +101,7 @@ h1{
     align-items: self-start;
     gap: 2rem;
     color: #fff;
+    margin-top: 4rem;
 }
 .aboutUs-content2 #tittle {
     background-color: #e6ddff;
@@ -155,6 +153,4 @@ h1{
     
 }
 
-
-/* ========about us content2======= */
 
