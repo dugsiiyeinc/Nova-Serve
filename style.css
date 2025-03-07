@@ -140,17 +140,51 @@ h1{
 }
 
 .btn {
-   background-color: #7444fd;
+    background-color: transparent;
    padding: 1rem 3rem;
    border-radius: 2rem;
+   border: none;
    color: #fff;
    font-size: 1rem; 
+   transition:  2s all ease-in-out;
+   overflow: hidden;
+   position: relative;
 }
 
 .btn:hover{
-    background-color: #fff;
-    color: black;
+    background-color: black;
+    color: #fff;
+ 
     
 }
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -120px;
+    top: -270px;
+    border-radius: 45%;
+    background-color: #7444fd;
+    transition: .9s all ease-in-out;
+    z-index: -1;
+}
 
+
+.btn:hover::before{
+    top: -450px; 
+}
+
+@keyframes wave {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+    
 
