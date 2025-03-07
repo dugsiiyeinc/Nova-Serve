@@ -35,5 +35,59 @@ h1{
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
+.about-us-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    /* margin-top: 2rem; */
+}
+
+.img-box {
+    margin-left: 5rem;
+}
+
+.img-box .pic {
+    position: relative;
+    padding-left: 1.5rem;
+    z-index: -1;
+}
+
+.img-box .pic::before {
+    content: "";
+    background-color: #e8e5fc;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 450px;
+    height: 70vh;
+    z-index: -1;
+   border-radius: 2rem;
+}
+
+.img-overlay {
+   
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    margin-top: -5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    30% {
+        left: 150px;
+    }
+
+    50% {
+        right: 100px;
+    }
+    80% {
+        right: 110px;
+    }
+}
 
 
