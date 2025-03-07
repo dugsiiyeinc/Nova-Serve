@@ -22,8 +22,7 @@ img {
     overflow: hidden;
     padding: 0 1rem;
 }
-
-
+/* ========about ushero-tittle styele======= */
 h1{
     display: flex;
     justify-content: center;
@@ -34,25 +33,29 @@ h1{
     text-transform: uppercase;
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.5);
 }
+/* ========about us hero-tittle style======= */
 
+/* ========about us grid======= */
 .about-us-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     /* margin-top: 2rem; */
 }
+/* ========about us grid======= */
 
+/* ========about us content======= */
 .img-box {
     margin-left: 5rem;
 }
 
-.img-box .pic {
+.aboutUs-content .pic {
     position: relative;
     padding-left: 1.5rem;
     z-index: -1;
 }
 
-.img-box .pic::before {
+.aboutUs-content .pic::before {
     content: "";
     background-color: #e8e5fc;
     position: absolute;
@@ -79,15 +82,79 @@ h1{
 
 @keyframes move {
     30% {
-        left: 150px;
+        left: 50px;
     }
 
     50% {
-        right: 170px;
+        right: 60px;
     }
     80% {
-        right: 200px;
+        right: 70px;
     }
 }
 
+/* ========about us content======= */
+
+
+/* ========about us content2======= */
+
+.aboutUs-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 2rem;
+    color: #fff;
+}
+.aboutUs-content2 #tittle {
+    background-color: #e6ddff;
+    color: #7444fd;
+    border-radius: 2rem;
+    padding: .4rem 1rem;
+}
+
+.aboutUs-content2 #tittle img {
+    width: 15px;
+    margin-left: .5rem;
+}
+
+.aboutUs-content2 h2 {
+    font-size: 2.7rem;
+    fonr-weight: 700;
+}
+
+.aboutUs-content2 p{
+    color: #e6ddff;
+}
+
+.aboutUs-content2 #check-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 1.3rem;
+}
+
+.aboutUs-content2 #check-boxes i {
+    background-color: #1cd07a;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 1rem;
+    margin-block: .5rem;
+}
+
+.btn {
+   background-color: #7444fd;
+   padding: 1rem 3rem;
+   border-radius: 2rem;
+   color: #fff;
+   font-size: 1rem; 
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    
+}
+
+
+/* ========about us content2======= */
 
