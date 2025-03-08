@@ -291,23 +291,16 @@ h1{
 
 #section4-bg {
     margin-top: 5rem;
-    position: relative;
 }
 
 .box1 {
-    position: absolute;
-    top: 0;
-    left:8%;
+    margin-top: -17rem
 }
 .box2 {
-    position: absolute;
-    top: 35%;
-    left:42%;
+    margin-top: -10rem;
 }
 .box3 {
-    position: absolute;
-    top: 0;
-    right:8%;
+   margin-top: -17rem;
 }
 /* ========tablet media query======== */
 
@@ -341,7 +334,25 @@ h1{
     
     50% {
         translate:  8px;
-    }
+    }   
+}
+
+.aboutUs-section4 h2 {
+    font-size: 2.2rem;
+}
+
+#section4-bg img {
+    display: none;
+}
+
+
+.section4-grid {
+    grid-template-columns: 1fr;
+    margin-top: -5rem;
+}
+
+.boxes {
+    margin:  0rem;
 }
     
 }
@@ -362,10 +373,13 @@ h1{
     .img-overlay-1, 
     .img-overlay-2 {   
         width: 150px;
-        background-color: #dee4d8;
-        
+        background-color: #dee4d8;   
     }
-    
+
+    .aboutUs-section4 h2 {
+        font-size: 1.7rem;
+    }
+
 }
     
 
