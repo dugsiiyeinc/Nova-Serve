@@ -60,7 +60,7 @@ body {
     flex-direction: row;
     gap: 2rem;
 }
-
+ 
 .menu-list li {
     list-style: none;
 }
