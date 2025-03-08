@@ -219,15 +219,9 @@ h1{
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 1rem;
-    animation: top-and-bottom 3s infinite alternate;
+    animation: back-and-forth 3s infinite alternate;
 }
-
-@keyframes top-and-bottom {
-    
-    50% {
-        translate:  30%;
-    }
-}   
+   
 .aboutUs-dis #icons {
     width: 100px;
 }
@@ -258,10 +252,29 @@ h1{
         grid-template-columns: 1fr;
     }
 
+/* ===========aboutUs-content2 pic========== */
+    @keyframes move {
+        30% {
+            left: 10px;
+        }
     
+        50% {
+            right: 60px;
+        }
+        80% {
+            right: 70px;
+        }
     }
+/* =============aboutUs-content3 pic2 */
 
+@keyframes back-and-forth {
     
+    50% {
+        translate:  8px;
+    }
+}
+    
+}
     
 
 
@@ -276,7 +289,8 @@ h1{
         grid-template-columns: 1fr;
     }
 /* =============aboutUs-content3 pic2 */
-    .img-overlay-1 {   
+    .img-overlay-1, 
+    .img-overlay-2 {   
         width: 150px;
         background-color: #dee4d8;
         
