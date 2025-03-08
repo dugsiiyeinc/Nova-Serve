@@ -124,7 +124,7 @@ h1{
 .aboutUs-content3 h2,
 .aboutUs-section4 h2 {
     font-size: 2.7rem;
-    fonr-weight: 700;
+    font-weight: 700;
 }
 
 
@@ -179,15 +179,6 @@ h1{
     top: -450px; 
 }
 
-/* @keyframes wave {
-    0% {
-        rotate: 0deg;
-    }
-
-    100% {
-        rotate: 360deg;
-    }
-} */
 
 /* =========more on section3========= */
 
@@ -216,7 +207,7 @@ h1{
 @keyframes back-and-forth {
     
     50% {
-        translate:  30%;
+         translate:  30%;
     }
 }
 
@@ -225,11 +216,20 @@ h1{
     background-color: white;
     position: absolute;
     left: 0;
-    bottom: 5px;
+    bottom: 0;
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 1rem;
-    animation: back-and-forth 3s infinite alternate;
+    animation: floatUpDown 3s infinite alternate;
+}
+
+@keyframes floatUpDown {
+    50% {
+        transform:  translateY(30%);
+    }
+    /* 100% {
+        transform:  translate (30%);
+    } */
 }
    
 .aboutUs-dis #icons {
@@ -316,24 +316,23 @@ h1{
     }
 
 /* ===========aboutUs-content2 pic========== */
-    @keyframes move {
-        30% {
-            left: 10px;
-        }
-    
-        50% {
-            right: 60px;
-        }
-        80% {
-            right: 70px;
-        }
-    }
+.img-overlay-1 {   
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    right: 20%;
+    top: 5px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    animation: back-and-forth 3s infinite alternate;
+}
 /* =============aboutUs-content3 pic2 */
 
 @keyframes back-and-forth {
     
     50% {
-        translate:  8px;
+        translate:  40%;
     }   
 }
 
@@ -372,8 +371,7 @@ h1{
 /* =============aboutUs-content3 pic2 */
     .img-overlay-1, 
     .img-overlay-2 {   
-        width: 150px;
-        background-color: #dee4d8;   
+        width: 150px;   
     }
 
     .aboutUs-section4 h2 {
