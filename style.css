@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+/* html {
+    font-size: 65.5%;
+} */
+
 body {
     font-family: "Manrope", sans-serif;
     background-color: #0F0A2B;
@@ -206,6 +210,7 @@ body {
     
 }
 
+
 .users-img{
     display: flex;
     gap: 0.5rem;
@@ -246,10 +251,250 @@ body {
     display: flex;
     flex-direction: column;
     align-items: self-end;
-
+    justify-content: flex-start;
+    position: relative;
 }
 
 .left-side img{
-   width: 80%;
-   height: 80%;
+    width: 500px;
+    height: 585px;
+}
+
+
+.absulate-badge-1{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    padding: 0.1rem 0.8rem;
+    border: 2px solid #2153FF;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    animation: floatUpDown 3s infinite ease-in-out;
+}
+
+.absulate-badge-1 img{
+    width:2rem;
+    height: 100%;
+}
+
+.absulate-badge-1 span{
+    font-size: 1rem;
+    color:#FFFFFF
+
+}
+
+.absulate-badge-2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    padding: 0.2rem 0.9rem;
+    border: 2px solid #2153FF;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 4rem;
+    top: 25rem;
+    animation: floatUpDown 3s infinite ease-in-out;
+}
+
+.absulate-badge-3{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    width: 30%;
+    align-items: center;
+    padding: 0.1rem 0.8rem;
+    border: 2px solid #2153FF;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 33rem;
+    top: 2.5rem;
+    animation: floatUpDown 3s infinite ease-in-out;
+}
+
+.absulate-badge-4{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    padding: 0.2rem 0.9rem;
+    border: 2px solid #2153FF;
+    border-radius: 0.5rem;
+    text-wrap: nowrap;
+    position: absolute;
+    left: 30rem;
+    top: 25rem;
+    animation: floatUpDown 3s infinite ease-in-out;
+}
+
+
+
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+        /* Moves down */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Moves back up */
+    }
+}
+
+
+
+
+
+/* Responsive sections */
+
+
+    /* tablet responsive */
+
+@media (min-width:761px) and (max-width:1100px){
+
+    
+    .top-grid {
+        width:100vw;
+        height: calc(100vh - 80px);
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 1.5rem;
+    }
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+        
+    }
+}
+    /* mobile responsive */
+
+@media (min-width:200px) and (max-width:760px) {
+  
+.top-grid {
+    width:50%;
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+
+}
+.h1-p h1{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    
+}
+
+.h1-p p{
+    font-size: 0.75rem;
+  
+}
+
+.badge-1{
+    display: flex;
+    flex-direction: row;
+    width: 58%;
+    padding: 0.2rem 0.5rem;
+    text-wrap: nowrap;
+    gap: 0.5rem;
+    border: 2px solid #2153FF;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+
+.bottom-badges{
+    display: flex;
+    width: 60%;
+    justify-content: flex-start;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    
+}
+
+.bottom-badges .happy-customer{
+    display: none;
+    font-size: 0.5765rem;
+}
+
+.user-rating span{
+    font-size: 0.8rem;
+    text-wrap: nowrap;
+}
+.two-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.left-side {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: self-start;
+    position: relative;
+}
+
+.left-side img{
+    width: 500px;
+    height: 585px;
+}
+
+.absulate-badge-1{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    padding: 0.1rem 0.8rem;
+    border: 2px solid #2153FF;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    animation: floatUpDown 3s infinite ease-in-out;
+
+}
+
+.absulate-badge-1 img{
+    width:2rem;
+    height: 100%;
+}
+.absulate-badge-2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    padding: 0.2rem 0.9rem;
+    border: 2px solid #2153FF;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 28rem;
+    animation: floatUpDown 3s infinite ease-in-out;
+
+}
+
+.absulate-badge-3,.absulate-badge-4{
+    display: none;
+}
 }
