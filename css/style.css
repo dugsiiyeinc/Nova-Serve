@@ -335,7 +335,7 @@ h1{
 }
 
 .section5-content1 .img-overlay-3 {
-    margin-top: -38rem;
+    margin-top: -36rem;
     margin-left: 2rem;
     position: relative;
     background: linear-gradient(rgba(58, 25, 109, 0.5), rgba(77, 174, 58, 0.5));
@@ -356,9 +356,10 @@ h1{
 .overlay-tittle {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     position: absolute;
-    top: 3%;
+    top: 6%;
+    margin-inline: -5%;
 }
 
 #overlay-heading {
@@ -408,7 +409,7 @@ h1{
         translate:  40%;
     }   
 }
-
+/* ===========section4======= */
 .aboutUs-section4 h2 {
     font-size: 2.2rem;
 }
@@ -426,9 +427,15 @@ h1{
 .boxes {
     margin:  0rem;
 }
+
+/* ==========section5======== */
+.section5-grid {
+    grid-template-columns: 1fr;
     
 }
     
+}
+
 
 
 @media  (max-width: 480px) {
@@ -446,10 +453,11 @@ h1{
     .img-overlay-2 {   
         width: 150px;   
     }
-
+/* ===========section4=======  */
     .aboutUs-section4 h2 {
         font-size: 1.7rem;
     }
+
 
 }
     
