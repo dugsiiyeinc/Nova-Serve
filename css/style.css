@@ -429,7 +429,9 @@ h1{
     .aboutUs-content .pic img {
         margin: 0;
     }
-    .about-us-grid {
+    .about-us-grid,
+    .section5-grid,
+    .our-team-grid {
         grid-template-columns: 1fr;
     }
 
@@ -468,15 +470,18 @@ h1{
     margin-top: -5rem;
 }
 
-.boxes {
-    margin:  0rem;
+.boxes,
+.teams,
+.teams img,
+.team-info,
+.team-smlinks {
+    margin:  0;
 }
 
-/* ==========section5======== */
-.section5-grid {
-    grid-template-columns: 1fr;
-    
+.section5-content1 .pic3 {
+    height: auset;
 }
+
     
 }
 
@@ -501,6 +506,8 @@ h1{
     .aboutUs-section4 h2 {
         font-size: 1.7rem;
     }
+
+
 
 
 }
