@@ -372,6 +372,25 @@ h1{
 }
 
 
+
+/* ==========ourteam section6========= */
+
+.our-team-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-block: 4rem;
+}
+
+.teams img {
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 2.7rem;
+}
+
+.teams 
+
+
 /* ========tablet media query======== */
 
 @media  (max-width: 768px) {
