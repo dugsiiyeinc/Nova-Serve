@@ -51,9 +51,10 @@ h1{
 }
 
 /* ========about us grid======= */
-.about-us-grid {
+.about-us-grid,
+.section5-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-block: 3rem;
 }
@@ -107,7 +108,8 @@ h1{
 }
 .aboutUs-content2 #tittle, 
 .aboutUs-content3 #tittle,
-.aboutUs-section4 #tittle {
+.aboutUs-section4 #tittle,
+.section5-content #tittle {
     background-color: #e6ddff;
     border-radius: 2rem;
     padding: .4rem 1rem;
@@ -115,7 +117,8 @@ h1{
 
 .aboutUs-content2 #tittle img,
 .aboutUs-content3 #tittle img,
-.aboutUs-section4 #tittle img{
+.aboutUs-section4 #tittle img,
+.section5-content #tittle img {
     width: 15px;
     margin-left: .5rem;
 }
