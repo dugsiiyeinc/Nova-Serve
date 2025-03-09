@@ -388,8 +388,33 @@ h1{
     margin-left: 2.7rem;
 }
 
-.teams 
+.teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+}
 
+.team-info {
+    margin-top: 1.5em;
+    margin-left: 3rem;
+}
+
+.team-smlinks {
+    display: flex;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+
+.team-smlinks i {
+    color: #eaf3ef;
+}
+
+.team-smlinks i:hover {
+    color: orange;
+}
 
 /* ========tablet media query======== */
 
