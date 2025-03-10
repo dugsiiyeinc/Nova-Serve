@@ -405,8 +405,6 @@ body {
     height: auto;
 }
 
-
-
 .about-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -415,8 +413,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-
 
 .about-left img:nth-of-type(1){
     width: 70%;
