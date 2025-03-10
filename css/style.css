@@ -414,6 +414,24 @@ h1{
     color: orange;
 }
 
+/* ===============section7 team details============== */
+.team-details {
+    display: flex;
+}
+
+.team-details img {
+   width: 400px; 
+   height: 500px;                                                
+}
+
+
+
+
+
+
+
+
+
 /* ========tablet media query======== */
 
 @media  (max-width: 768px) {
