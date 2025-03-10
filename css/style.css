@@ -406,11 +406,13 @@ h1{
     gap: 1rem;
 }
 
-.team-smlinks i {
-    color: #eaf3ef;
+.team-smlinks i,
+.personal-links i {
+    color: #11aa32;
 }
 
-.team-smlinks i:hover {
+.team-smlinks i:hover,
+.personal-links i:hover {
     color: orange;
 }
 
@@ -441,6 +443,11 @@ h1{
 .personal-info {
     display: flex;
     justify-content: space-between;
+}
+
+.personal-links {
+    display: flex;
+    gap: 1.5rem;
 }
 
 
