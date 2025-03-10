@@ -417,12 +417,27 @@ h1{
 /* ===============section7 team details============== */
 .team-details {
     display: flex;
+    gap: 2rem;
+    margin-block: 5rem
 }
 
 .team-details img {
    width: 400px; 
    height: 500px;                                                
 }
+
+.team-dis {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.signature img {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+} 
+
 
 
 
