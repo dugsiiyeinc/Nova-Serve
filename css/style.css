@@ -408,7 +408,7 @@ h1{
 
 .team-smlinks i,
 .personal-links i {
-    color: #1eaa11;
+    color: #1cd07a;
 }
 
 .team-smlinks i:hover,
@@ -436,7 +436,7 @@ h1{
 }
 
 .signature img {
-    background-color: red;
+    background-color: #c9bbbb;
     width: 100px;
     height: 100px;
 } 
@@ -453,6 +453,21 @@ h1{
 
 .team-dis p {
     line-height: 2.5rem;
+}
+
+.personal-contact {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.personal-contact span {
+    color: #fff;
+}
+
+.personal-contact i {
+    margin-right: 1rem;
+    color: #1cd07a;
 }
 
 
