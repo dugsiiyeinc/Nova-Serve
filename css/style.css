@@ -113,7 +113,7 @@ h1{
 .aboutUs-section4 #tittle,
 .section5-content #tittle,
 .our-team #tittle,
-.team-details #tittle {
+.team-banner #tittle {
     background-color: #e6ddff;
     border-radius: 2rem;
     padding: .4rem 1rem;
@@ -124,7 +124,7 @@ h1{
 .aboutUs-section4 #tittle img,
 .section5-content #tittle img,
 .our-team #tittle img,
-.team-details #tittle img {
+.team-banner #tittle img {
     width: 15px;
     margin-left: .5rem;
 }
@@ -134,7 +134,7 @@ h1{
 .aboutUs-section4 h2,
 .section5-content h2,
 .our-team h2,
-.team-details h2 {
+.team-banner h2 {
     font-size: 2.7rem;
     font-weight: 700;
 }
@@ -263,7 +263,7 @@ h1{
 
 .aboutUs-section4,
 .our-team,
-.team-details {
+.team-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,7 +278,9 @@ h1{
     margin-block: 3rem;
 }
 
-.aboutUs-section4 h2 {
+.aboutUs-section4 h2,
+.our-team h2,
+.team-banner h2 {
     text-align: center;
     margin-bottom: 4rem;
 }
