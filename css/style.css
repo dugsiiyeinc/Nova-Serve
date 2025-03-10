@@ -111,7 +111,9 @@ h1{
 .aboutUs-content2 #tittle, 
 .aboutUs-content3 #tittle,
 .aboutUs-section4 #tittle,
-.section5-content #tittle {
+.section5-content #tittle,
+.our-team #tittle,
+.team-banner #tittle {
     background-color: #e6ddff;
     border-radius: 2rem;
     padding: .4rem 1rem;
@@ -120,7 +122,9 @@ h1{
 .aboutUs-content2 #tittle img,
 .aboutUs-content3 #tittle img,
 .aboutUs-section4 #tittle img,
-.section5-content #tittle img {
+.section5-content #tittle img,
+.our-team #tittle img,
+.team-banner #tittle img {
     width: 15px;
     margin-left: .5rem;
 }
@@ -128,7 +132,9 @@ h1{
 .aboutUs-content2 h2,
 .aboutUs-content3 h2,
 .aboutUs-section4 h2,
-.section5-content h2 {
+.section5-content h2,
+.our-team h2,
+.team-banner h2 {
     font-size: 2.7rem;
     font-weight: 700;
 }
@@ -255,7 +261,9 @@ h1{
 
 /* ============section4================= */
 
-.aboutUs-section4 {
+.aboutUs-section4,
+.our-team,
+.team-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,7 +278,9 @@ h1{
     margin-block: 3rem;
 }
 
-.aboutUs-section4 h2 {
+.aboutUs-section4 h2,
+.our-team h2,
+.team-banner h2 {
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -332,12 +342,13 @@ h1{
     width: 450px;
     height: 560px;
     margin-left: 5rem;
+    position: relative;
 }
 
 .section5-content1 .img-overlay-3 {
     margin-top: -36rem;
     margin-left: 2rem;
-    position: relative;
+    position: absolute;
     background: linear-gradient(rgba(58, 25, 109, 0.5), rgba(77, 174, 58, 0.5));
     width: 180px;
     padding: 4rem 2rem 1rem;
@@ -383,9 +394,8 @@ h1{
 }
 
 .teams img {
-    width: 300px;
+    width: 220px;
     border-radius: 50%;
-    margin-left: 2.7rem;
 }
 
 .teams {
@@ -399,22 +409,90 @@ h1{
 
 .team-info {
     margin-top: 1.5em;
-    margin-left: 3rem;
 }
 
 .team-smlinks {
     display: flex;
     gap: 1rem;
-    margin-left: 3rem;
 }
 
-.team-smlinks i {
-    color: #eaf3ef;
+.team-smlinks i,
+.personal-links i {
+    color: #1cd07a;
 }
 
-.team-smlinks i:hover {
+.team-smlinks i:hover,
+.personal-links i:hover {
     color: orange;
 }
+
+/* ===============section7 team details============== */
+.team-details {
+    display: flex;
+    gap: 2rem;
+    margin-block: 5rem
+}
+
+.team-details #img {
+   max-width: 350px; 
+   border-radius: 2rem;                                               
+}
+
+.team-dis {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.signature img {
+    background-color: #c9bbbb;
+    width: 91px;
+    height: 51px;
+} 
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-tittle {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.personal-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.team-dis p {
+    line-height: 2.5rem;
+}
+
+.personal-contact {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.personal-contact span {
+    color: #fff;
+}
+
+.personal-contact i,
+.personal-tittle i  {
+    margin-right: 1rem;
+    color: #1cd07a;
+}
+
+
+
+
+
+
+
+
 
 /* ========tablet media query======== */
 
@@ -422,18 +500,18 @@ h1{
 
     /* =========about-page========== */
 
-    .aboutus-tittle h1 {
-        font-size: 3rem;
-    }
+.aboutus-tittle h1 {
+    font-size: 3rem;
+}
 
-    .aboutUs-content .pic img {
-        margin: 0;
-    }
-    .about-us-grid,
-    .section5-grid,
-    .our-team-grid {
-        grid-template-columns: 1fr;
-    }
+.aboutUs-content .pic img {
+    margin: 0;
+}
+.about-us-grid,
+.section5-grid,
+.our-team-grid {
+    grid-template-columns: 1fr;
+}
 
 /* ===========aboutUs-content2 pic========== */
 .img-overlay-1 {   
@@ -470,6 +548,8 @@ h1{
     margin-top: -5rem;
 }
 
+/* ===========section5 ourteam=========== */
+
 .boxes,
 .teams,
 .teams img,
@@ -478,9 +558,42 @@ h1{
     margin:  0;
 }
 
-.section5-content1 .pic3 {
-    height: auset;
+.counter {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: auto;
 }
+
+.section5-content1 .pic3 {
+    margin-right: 4rem;
+}
+
+/* ==============team details============= */
+.team-details {
+    flex-direction: column;
+}
+
+.team-details #img {
+    margin: auto;
+    width: 100%;
+}
+
+.team-details .personal-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.personal-links {
+    gap: .5rem;
+}
+
+.personal-contact {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
 
     
 }
@@ -505,6 +618,18 @@ h1{
 /* ===========section4=======  */
     .aboutUs-section4 h2 {
         font-size: 1.7rem;
+    }
+
+
+    /* ==========section5 our team =============== */
+
+    .section5-content1 .img-overlay-3  {
+        margin-left: 0;
+    }
+
+    /* ==========team details======== */
+    .personal-contact {
+        font-size: 1rem;
     }
 
 
