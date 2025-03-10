@@ -423,9 +423,8 @@ h1{
     margin-block: 5rem
 }
 
-.team-details img {
-   width: 400px; 
-   height: 500px; 
+.team-details #img {
+   max-width: 350px; 
    border-radius: 2rem;                                               
 }
 
@@ -437,13 +436,18 @@ h1{
 
 .signature img {
     background-color: #c9bbbb;
-    width: 100px;
-    height: 100px;
+    width: 91px;
+    height: 51px;
 } 
 
 .personal-info {
     display: flex;
     justify-content: space-between;
+}
+
+.personal-tittle {
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 .personal-links {
@@ -458,6 +462,7 @@ h1{
 .personal-contact {
     display: flex;
     gap: 1rem;
+    margin-top: 2rem;
     cursor: pointer;
 }
 
@@ -465,7 +470,8 @@ h1{
     color: #fff;
 }
 
-.personal-contact i {
+.personal-contact i,
+.personal-tittle i  {
     margin-right: 1rem;
     color: #1cd07a;
 }
@@ -551,8 +557,33 @@ h1{
 
 .section5-content1 .pic3 {
     margin-right: 4rem;
-    /* margin-inline: 3rem; */
 }
+
+/* ==============team details============= */
+.team-details {
+    flex-direction: column;
+}
+
+.team-details #img {
+    margin: auto;
+    width: 100%;
+}
+
+.team-details .personal-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.personal-links {
+    gap: .5rem;
+}
+
+.personal-contact {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
 
     
 }
@@ -584,6 +615,11 @@ h1{
 
     .section5-content1 .img-overlay-3  {
         margin-left: 0;
+    }
+
+    /* ==========team details======== */
+    .personal-contact {
+        font-size: 1rem;
     }
 
 
