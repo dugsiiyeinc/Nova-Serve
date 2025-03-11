@@ -528,6 +528,7 @@ h1{
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 2rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+    transition: all cubic-bezier(25, 8, 25, 1);
 }
 
 .bar:hover {
@@ -543,24 +544,67 @@ h1{
 .Html {
     width: 90%;
     animation: Html 3s;
+    animation-iteration-count: infinite;
 }
 
 .Css {
     width: 70%;
     animation: Css 3s;
+    animation-iteration-count: infinite;
 }
 
 .javascript {
     width: 40%;
     animation: javascript 3s;
+    animation-iteration-count: infinite;
 }
 
 .React {
     width: 60%;
     animation: React 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes Css {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 40%;
+    }
 }
 
 
+@keyframes React {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
 
 
 
