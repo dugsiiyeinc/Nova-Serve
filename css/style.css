@@ -486,6 +486,16 @@ h1{
     color: #1cd07a;
 }
 
+/* ===========section8 personal dis======== */
+.personal-dis {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.personal-dis h2 {
+    margin-bottom: 1rem;
+}
+
 
 
 
