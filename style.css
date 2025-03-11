@@ -676,7 +676,6 @@ body {
     color: white;
 }
 
-
 .work-grids{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -1323,6 +1322,7 @@ body {
 .how-itwork{
     width: 100%;
 }
+
 .title-wrok{
     display: flex;
     flex-direction: column;
