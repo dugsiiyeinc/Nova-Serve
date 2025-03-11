@@ -513,12 +513,10 @@ h1{
 }
 
 .personalSkills #skill-rate {
-    margin-left: 30rem;
-}
+    display: flex;
+    justify-content: end;
+}   
 
-#skill-rate3 {
-    margin-left: 28rem;
-}
 
 .bar {
     display: block;
