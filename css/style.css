@@ -602,6 +602,23 @@ h1{
 }
 
 
+.faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-block: 5rem;
+}
+
+.faq-dis h3,p {
+    margin-bottom: .5rem;
+}
+
+.faq-dis i {
+    margin-left: 1.5rem;
+}
+
+
+
 
 
 /* ========tablet media query======== */
