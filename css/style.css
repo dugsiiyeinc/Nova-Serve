@@ -418,7 +418,7 @@ h1{
 
 .team-smlinks i,
 .personal-links i {
-    color: #1cd07a;
+    color: #fff;
 }
 
 .team-smlinks i:hover,
@@ -509,13 +509,10 @@ h1{
 }
 
 .personalSkills #skill-tittle {
-    margin-left: .5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.personalSkills #skill-rate {
-    display: flex;
-    justify-content: end;
-}   
 
 
 .bar {
@@ -535,7 +532,7 @@ h1{
 .bar span {
     height: 20px;
     float:left ;
-    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+    background: #2153FF;
     border-radius: 1rem;
 }
 
