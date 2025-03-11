@@ -636,7 +636,8 @@ h1{
 }
 .about-us-grid,
 .section5-grid,
-.our-team-grid {
+.our-team-grid,
+.faq {
     grid-template-columns: 1fr;
 }
 
