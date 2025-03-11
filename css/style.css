@@ -491,13 +491,74 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    margin-block: 4rem;
 }
 .personal-dis h2 {
     margin-bottom: 1rem;
 }
 
 
+.personalSkills li {
+  list-style: none;
+  padding: 1rem;
+}
 
+.personalSkills span {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.personalSkills #skill-tittle {
+    margin-left: .5rem;
+}
+
+.personalSkills #skill-rate {
+    margin-left: 30rem;
+}
+
+#skill-rate3 {
+    margin-left: 28rem;
+}
+
+.bar {
+    display: block;
+    background-color: #3c507c;
+    height: 1.2rem;
+    margin-top: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(197, 240, 6, 0.25), 0 10px 10px rgba(4, 135, 12, 0.22);
+}    
+.bar span {
+    height: 20px;
+    float:left ;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+    border-radius: 1rem;
+}
+
+.Html {
+    width: 90%;
+    animation: Html 3s;
+}
+
+.Css {
+    width: 70%;
+    animation: Css 3s;
+}
+
+.javascript {
+    width: 40%;
+    animation: javascript 3s;
+}
+
+.React {
+    width: 60%;
+    animation: React 3s;
+}
 
 
 
