@@ -628,6 +628,62 @@ h1{
 }
 
 
+/* ===============Testimonial============ */
+.Testimonials {
+    display: flex;
+    gap: 3rem; ;
+}
+
+
+.client-1 {
+    background-color: #242e50;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+
+.client-1 .client-info img {
+    width: 100px;
+    border-radius: 2rem;
+}
+
+.client-info {
+    display: flex;
+    gap: 1rem;
+}
+
+.Testimonials {
+    margin-block: 4rem;
+}
+
+.client-tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.client-tittle span {
+    font-size: .8rem;
+    color: #2153FF;
+    font-family: "Playwrite NZ Guides", cursiv
+}
+
+.client-dis .stars  {
+    color: #f27625;
+    font-size: .8rem;
+    padding-left: .5rem;
+}
+
+.client-dis #comma img {
+    width: 25px;
+}
+
+.client-dis #comma {
+    display: flex;
+    justify-content: end;
+
+}
+
 
 
 
@@ -734,7 +790,6 @@ h1{
 }
 
 
-    
 }
 
 
