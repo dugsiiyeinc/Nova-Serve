@@ -773,7 +773,11 @@ h1{
     font-size: 1rem;
     font-family: "poppins", cursive;
 }
-
+.why-choseUs i#award {
+    color: #1cd07a;
+    margin-right: .5rem;
+    font-size: 1rem;
+}
 
 
 
