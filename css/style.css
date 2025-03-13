@@ -115,7 +115,8 @@ h1{
 .our-team #tittle,
 .team-banner #tittle,
 .Testimonial #tittle,
-.why-choseUs #tittle {
+.why-choseUs #tittle,
+.our-values #tittle {
     background-color: #e6ddff;
     border-radius: 2rem;
     padding: .4rem 1rem;
@@ -140,7 +141,8 @@ h1{
 .our-team h2,
 .team-banner h2,
 .Testimonial h2,
-.why-choseUs h2 {
+.why-choseUs h2,
+.our-values h2 {
     font-size: 2.7rem;
     font-weight: 700;
 }
@@ -271,7 +273,8 @@ h1{
 .our-team,
 .team-banner,
 .Testimonial,
-.why-choseUs {
+.why-choseUs,
+.our-values {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,7 +293,8 @@ h1{
 .our-team h2,
 .team-banner h2,
 .Testimonial h2,
-.why-choseUs h2 {
+.why-choseUs h2,
+.our-values h2 {
     text-align: center;
     margin-bottom: 4rem;
     font-family: "roboto", sans-serif;
@@ -713,7 +717,10 @@ h1{
 }
 
 .our-mission,
-.our-vision {
+.our-vision,
+.education,
+.community,
+.innovation {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -724,14 +731,20 @@ h1{
 }
 
 .mission-info,
-.vision-info {
+.vision-info,
+.education-info,
+.community-info,
+.innovation-info {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
 .mission-info i,
-.vision-info i {
+.vision-info i,
+.education i,
+.community i,
+.innovation i {
     color: #1cd07a;
     font-size: 1.5rem;
     background-color: #28312f;
@@ -740,14 +753,21 @@ h1{
 }
 
 .mission-info i:hover,
-.vision-info i:hover {
+.vision-info i:hover,
+.education i:hover,
+.community i:hover,
+.innovation i:hover {
     background-color: #4a8c64;
     color: #fff;
+    cursor: pointer;
 }
 
 
 .mission-info h3,
-.vision-info h3 {
+.vision-info h3,
+.education h3,
+.community h3,
+.innovation h3 {
     font-size: 1.3rem;
 }
 .mission-info span,
@@ -773,10 +793,23 @@ h1{
     font-size: 1rem;
     font-family: "poppins", cursive;
 }
-.why-choseUs i#award {
+
+/* ===============Our Values============ */
+.our-values i#award {
     color: #1cd07a;
     margin-right: .5rem;
     font-size: 1rem;
+}
+
+.our-value {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.community-info .icon img {
+    width: 30px;
+    color: #1cd07a;
 }
 
 
