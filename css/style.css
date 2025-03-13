@@ -835,7 +835,9 @@ h1{
 .about-us-grid,
 .section5-grid,
 .our-team-grid,
-.faq {
+.faq,
+.why-chooseUs,
+.our-value {
     grid-template-columns: 1fr;
 }
 
