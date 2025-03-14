@@ -21,6 +21,10 @@
     button {
         color: #fff;
     }
+
+    a {
+        text-decoration: none;
+    }
 }
 
 body {
@@ -428,7 +432,7 @@ h1{
 .card--container {
     position: relative;
     display: grid;
-    grid-template-columns: 260px;
+    grid-template-columns: 330px;
     justify-content: center;
     gap: 2rem;
 }
@@ -450,34 +454,33 @@ h1{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg
-                hsla(0, 0%, 0%, 0) 70%,
-                hsla(0, 0%, 0%,) 100%);
 }
 
-.card--data {
-    color: #1d0fe4;
+.card--data  {
     position: absolute;
     left: 1.5rem;
     bottom: 2rem;
 }
 
 .card--name {
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 1.7rem;
     margin-bottom: .25rem;
 }
 
 .card--profession {
-    display: block;
+    font-weight: bolder;
     font-size: 1rem;
+    color: #2153FF;
 }
 
 .card--clip {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background-color: hsl(68, 77%, 48%);
-    box-shadow: 0 0 16px 4px hsl(246, 78%, 51%);
+    color: #fff;
+    background-color: #2153FF;
+    box-shadow: 0 0 16px 4px #2153FF;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -486,7 +489,7 @@ h1{
     font-size: 1.3rem;
     cursor: pointer;
     transition: transform .4s;
-    z-index: 5;
+    z-index: 1;
 }
 
 .card--article:hover .card--img {
@@ -499,11 +502,10 @@ h1{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: hsla(0, 0%, 0%, .1);
+    background: linear-gradient(rgba(104,114,46,0.4),rgba(18,169,186,.5));
     backdrop-filter: blur(12px);
-    color: #fff;
     padding: 3rem 1.5rem 1.5rem;
-    clip-path: circle(15px at 88% 10%);
+    clip-path: circle(8px at 88% 10%);
     transition: clip-path .5s ease-in-out;
 }
 
@@ -515,20 +517,21 @@ h1{
 .info--data p {
     font-size: 1rem;
     margin-bottom: 1rem;
+    color: #fff;
 }
 
 .info--btn {
     display: inline-flex;
-    background-color: hsl(246, 78%, 51%);
+    background-color: #2153FF;
     box-shadow: #1d0fe4;
     padding: .5rem .75rem;
     border-radius: .5rem;
-    color: black;
+    color: #fff;
     transition: box-shadow .4s;
 }
 
 .info--btn:hover {
-    box-shadow: 0 0 20px hsl(246, 78%, 51%);
+    box-shadow: 0 0 20px #2153FF;
 }
 
 .info--social {
@@ -540,19 +543,21 @@ h1{
 }
 
 .info--link {
-    background-color: hsl(246, 78%, 51%);
+    background-color: #fff;
     width: 2rem;
     height: 2rem;
     border-radius: .75rem;
     display: grid;
     place-items: center;
     font-size: 1.5rem;
-    color: black;
+    color: #2153FF;
     transition: transform .4s;
 }
 
 .info--link:hover {
     transform: translateY(-.25rem);
+    color: #fff;
+    background-color: #2153FF;
 }
 
 .card--article:hover .card--clip {
@@ -564,38 +569,6 @@ h1{
     clip-path: circle(100%);
 }
 
-/* .teams img {
-    width: 220px;
-    border-radius: 50%;
-}
-
-.teams {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: .5rem;
-}
-
-.team-info {
-    margin-top: 1.5em;
-}
-
-.team-smlinks {
-    display: flex;
-    gap: 1rem;
-}
-
-.team-smlinks i,
-.personal-links i {
-    color: #fff; 
-}
-
-.team-smlinks i:hover,
-.personal-links i:hover {
-    color: #2153FF;
-} */
 
 /* ===============section7 team details============== */
 .team-details {
