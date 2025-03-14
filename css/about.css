@@ -946,15 +946,45 @@ h1{
 }
 
 
-
-
-@media (min-width: 1200px) {
+@media  (min-width: 981px)  {
     .card {
         display: grid;
         place-content: center;
     }
     .card--container {
-        grid-template-columns: repeat(3,340px);
+        grid-template-columns: repeat(3,290px);
+    }
+
+    .info--data :nth-child(1){
+        margin-top: -2rem;
+    }
+
+    .info--btn {
+        margin-top: -2rem
+    }
+
+    .info--social {
+        margin-bottom: -1rem;
+    }
+    
+
+
+
+@media (min-width: 770px) and (max-width: 980px)   {
+    .card {
+        display: grid;
+        place-content: center;
+    }
+    .card--container {
+        grid-template-columns: repeat(2,340px);
+    }
+
+    .team-details {
+        flex-direction: column;
+    }
+
+    .faq {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1039,6 +1069,26 @@ h1{
 }
 
 /* ==============team details============= */
+
+.team-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-details #img {
+    margin: auto;
+}
+.personal-links {
+    margin: 1rem;
+}
+
+
+.personal-contact {
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+
 .card--container {
     grid-template-columns: 400px;
 }
