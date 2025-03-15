@@ -1693,7 +1693,7 @@ body {
     border-radius: 0.2rem;
     font-size: 1;
     border: none;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .newsletter input:hover{
@@ -1750,6 +1750,7 @@ body {
 
 .one-line h1{
     font-size: 15rem;
+    color:rgb(40, 74, 223);
 
 }
 
