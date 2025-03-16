@@ -110,11 +110,10 @@ body {
     }
 }
 
-.box-container {
+ .box-container {
     width: 1360px;
     margin: 0 auto;
-
-}
+ } 
 
 
 .top-menu {

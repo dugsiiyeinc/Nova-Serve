@@ -37,12 +37,142 @@ img {
     height: auto;
 }
 
-.container {
-    max-width: 1110px;
-    margin-inline: auto;
-    overflow: hidden;
-    padding: 0 1rem;
+
+.box-container {
+   width: 1360px;
+   margin: 0 auto;
+} 
+.burger{
+    display: none;
 }
+
+.burger{
+    display: none;
+    width: 22px;
+    height: 4px;
+    
+}
+
+.burger span {
+    display: none;
+    margin-bottom: 3px;
+    height: 3px;
+    color: #940000;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.navigation-bar.active {
+    display: flex;
+}
+
+#top1-btn{
+    display: none;
+}
+
+.light-effect {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 1), rgba(33, 83, 255, 0.5), transparent);
+    filter: blur(40px);
+    mix-blend-mode: overlay;
+    animation: moveLight 7s infinite linear alternate;
+}
+
+@keyframes moveLight {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(50%, 50%) rotate(20deg);
+    }
+}
+
+
+.light-effec2 {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    left: 0;
+    /* right: 100px; */
+    background: linear-gradient(120deg, rgba(255, 255, 255, 1), rgba(33, 83, 255, 1), transparent);
+    filter: blur(40px);
+    mix-blend-mode: overlay;
+    animation: moveLight 7s infinite linear alternate;
+    margin-left: -40rem;
+    top: -30rem;
+}
+
+@keyframes moveLight {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(50%, 50%) rotate(20deg);
+    }
+}
+
+/* .box-container {
+    width: 1360px;
+    margin: 0 auto;
+
+} */
+
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+
+.logo img {
+    width: 200px;
+    height: 100%;
+
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.menu-list a:hover {
+    border-bottom: 2px solid #2153FF;
+}
+
+#top-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #2153FF;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+#top-btn:hover {
+    background-color: #0F0A2B;
+    border: 1px solid #2153FF;
+}
+
 /* ========about ushero-tittle styele======= */
 h1{
     display: flex;
@@ -966,7 +1096,7 @@ h1{
     .info--social {
         margin-bottom: -1rem;
     }
-    
+}   
 
 
 
@@ -1114,7 +1244,6 @@ h1{
     margin-bottom: 3rem;
     margin-left: 6.3rem;
 }
-
 }
 
 
@@ -1124,6 +1253,9 @@ h1{
 
 
 @media  (max-width: 480px) {
+    header {
+        display:none;
+    }
 
     /* =========about-page========== */
 
