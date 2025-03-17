@@ -5,12 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 
-    h1,h2,h3,h4,h5,h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         color: #fff;
     }
+
     span {
         color: #7444fd;
     }
+
     span i {
         color: #fff;
     }
@@ -18,6 +25,7 @@
     p {
         color: #9da3b4;
     }
+
     button {
         color: #fff;
     }
@@ -33,24 +41,21 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 
-.box-container {
-   width: 1360px;
-   margin: 0 auto;
-} 
-.burger{
+<<<<<<< HEAD
+.burger {
     display: none;
 }
 
-.burger{
+.burger {
     display: none;
     width: 22px;
     height: 4px;
-    
+
 }
 
 .burger span {
@@ -66,11 +71,11 @@ img {
     display: flex;
 }
 
-#top1-btn{
+#top1-btn {
     display: none;
 }
 
-.light-effect {
+/* .light-effect {
     position: absolute;
     width: 700px;
     height: 300px;
@@ -88,38 +93,27 @@ img {
     100% {
         transform: translate(50%, 50%) rotate(20deg);
     }
-}
+} */
 
 
-.light-effec2 {
+/* .light-effec2 {
     position: absolute;
     width: 900px;
     height: 600px;
-    left: 0;
-    /* right: 100px; */
-    background: linear-gradient(120deg, rgba(255, 255, 255, 1), rgba(33, 83, 255, 1), transparent);
+    left: 0; */
+/* right: 100px; */
+/* background: linear-gradient(120deg, rgba(255, 255, 255, 1), rgba(33, 83, 255, 1), transparent);
     filter: blur(40px);
     mix-blend-mode: overlay;
     animation: moveLight 7s infinite linear alternate;
     margin-left: -40rem;
     top: -30rem;
-}
+} */
 
-@keyframes moveLight {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-
-    100% {
-        transform: translate(50%, 50%) rotate(20deg);
-    }
-}
-
-/* .box-container {
+.box-container {
     width: 1360px;
     margin: 0 auto;
-
-} */
+}
 
 
 .top-menu {
@@ -131,6 +125,23 @@ img {
     height: 80px;
 }
 
+=======
+.box-container {
+    width: 1360px;
+    margin: 0 auto;
+ } 
+
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+>>>>>>> 3afd39daddfe878ab54de75d4c98d2a8da668ae4
 
 .logo img {
     width: 200px;
@@ -173,8 +184,9 @@ img {
     border: 1px solid #2153FF;
 }
 
+
 /* ========about ushero-tittle styele======= */
-h1{
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,20 +197,20 @@ h1{
 }
 
 /* ========about us grid======= */
-.about-us-grid,
+.about-us,
 .section5-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 4rem;
     margin-block: 3rem;
 }
 
 /* ========about us content======= */
 
 .aboutUs-content .pic img {
-    width: 400px;
+    width: 800px;
     height: 650px;
-    margin-left: -2rem;
+
 }
 
 .aboutUs-content .pic {
@@ -206,43 +218,40 @@ h1{
     padding-left: 1.5rem;
     z-index: -1;
 }
-.img-overlay {   
+
+.img-overlay {
     width: 250px;
     height: 150px;
     background-color: white;
     position: absolute;
-    left: 10%;
+    left: 8%;
     margin-top: -9rem;
     padding: 1rem;
     border-radius: 1rem;
-    animation: move 3s infinite;
+    animation: back-and-forth 3s infinite;
 }
 
-@keyframes move {
-    30% {
-        left: 50px;
-    }
+@keyframes back-and-forth {
 
     50% {
-        right: 60px;
-    }
-    80% {
-        right: 70px;
+        translate: 8%;
     }
 }
+
 
 /* ========about us content2,3======= */
 
 .aboutUs-content2,
 .aboutUs-content3,
-.section5-content  {
+.section5-content {
     display: flex;
     flex-direction: column;
     align-items: self-start;
     gap: 2rem;
     margin-top: 4rem;
 }
-.aboutUs-content2 #tittle, 
+
+.aboutUs-content2 #tittle,
 .aboutUs-content3 #tittle,
 .aboutUs-section4 #tittle,
 .section5-content #tittle,
@@ -279,12 +288,6 @@ h1{
 .our-values h2 {
     font-size: 2.7rem;
     font-weight: 700;
-    background: linear-gradient(to right, #290add,#3b6282,#ae25f2, #639a20);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
-    text-shadow: 0 15px 14px rgba(12, 35, 183, .7), 0 6px 18px rgba(11, 95, 206, .8);
 }
 
 
@@ -306,21 +309,22 @@ h1{
 
 .btn {
     background-color: transparent;
-   padding: 1rem 3rem;
-   border-radius: 2rem;
-   border: none;
-   font-size: 1rem; 
-   transition:  2s all ease-in-out;
-   overflow: hidden;
-   position: relative;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    transition: 2s all ease-in-out;
+    overflow: hidden;
+    position: relative;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: black;
     color: #fff;
- 
-    
+
+
 }
+
 .btn::before {
     content: "";
     position: absolute;
@@ -335,8 +339,8 @@ h1{
 }
 
 
-.btn:hover::before{
-    top: -450px; 
+.btn:hover::before {
+    top: -450px;
 }
 
 
@@ -352,26 +356,20 @@ h1{
     position: relative;
 }
 
-.img-overlay-1 {   
+.img-overlay-1 {
     width: 200px;
     background-color: white;
     position: absolute;
-    right: 0;
-    top: 5px;
+    right: 14%;
+    top: 9px;
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 1rem;
     animation: back-and-forth 3s infinite alternate;
 }
 
-@keyframes back-and-forth {
-    
-    50% {
-         translate:  30%;
-    }
-}
 
-.img-overlay-2 {   
+.img-overlay-2 {
     width: 200px;
     background-color: white;
     position: absolute;
@@ -385,10 +383,10 @@ h1{
 
 @keyframes floatUpDown {
     50% {
-        transform:  translateY(30%);
+        transform: translateY(15%);
     }
 }
-   
+
 .aboutUs-dis #icons {
     width: 100px;
 }
@@ -399,8 +397,9 @@ h1{
     align-items: center;
     gap: 1rem;
 
-    
+
 }
+
 .aboutUs-info {
     display: flex;
     flex-direction: column;
@@ -422,12 +421,13 @@ h1{
     margin-top: 5rem;
 }
 
-.section4-grid {
+#section4-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-block: 3rem;
 }
+
 
 .aboutUs-section4 h2,
 .our-team h2,
@@ -440,14 +440,15 @@ h1{
     font-family: "roboto", sans-serif;
 }
 
-.boxes {
+.box {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     text-align: center;
     gap: 1rem;
 }
 
+/* 
 .boxes span {
     background-color: #e6ddff;
     border-radius: 2rem;
@@ -456,26 +457,57 @@ h1{
     font-weight: 700;
 }
 
+.section-4 .section4-info {
+    /* position: relative; */
 
-#section4-bg {
+
+
+
+/* .section4-info .section4-bg {
     margin-top: 5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+} */
+
+.section4-boxes {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.box span {
+    text-transform: uppercase;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    margin-top: -12rem;
 }
 
 .box1 {
-    margin-top: -17rem
-}
-.box2 {
-    margin-top: -10rem;
-}
-.box3 {
-   margin-top: -17rem;
+    margin-left: .5rem;
 }
 
+.box2 {
+    margin-top: -8rem;
+    margin-left: 4.5rem;
+}
+
+.box3 {
+    margin-left: 3rem;
+}
+
+*/
 /* ============section5================= */
 
-.counter  {
-   display: flex;
-   gap: 2rem;
+.counter {
+    display: flex;
+    gap: 2rem;
 }
 
 .counter .counter-box {
@@ -488,7 +520,8 @@ h1{
     font-weight: 700;
     color: #fff;
 }
-.counter #counter-info{
+
+.counter #counter-info {
     font-size: 1rem;
     color: #9da3b4;
 }
@@ -510,6 +543,7 @@ h1{
     border-radius: 1rem;
     animation: floatUpDown 3s infinite;
 }
+
 .overlay-content {
     display: flex;
     flex-direction: column;
@@ -532,6 +566,7 @@ h1{
     font-size: .7rem;
     color: #fff;
 }
+
 #overlay-counter {
     font-size: 1rem;
     color: #fff;
@@ -586,7 +621,7 @@ h1{
     height: 100%;
 }
 
-.card--data  {
+.card--data {
     position: absolute;
     left: 1.5rem;
     bottom: 2rem;
@@ -632,7 +667,7 @@ h1{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(104,114,46,0.4),rgba(18,169,186,.5));
+    background: linear-gradient(rgba(104, 114, 46, 0.4), rgba(18, 169, 186, .5));
     backdrop-filter: blur(12px);
     padding: 3rem 1.5rem 1.5rem;
     clip-path: circle(8px at 88% 10%);
@@ -695,7 +730,7 @@ h1{
 }
 
 .info:hover,
-.card--clip:hover ~ .info {
+.card--clip:hover~.info {
     clip-path: circle(100%);
 }
 
@@ -708,8 +743,8 @@ h1{
 }
 
 .team-details #img {
-   max-width: 350px; 
-   border-radius: 2rem;                                               
+    max-width: 350px;
+    border-radius: 2rem;
 }
 
 .team-dis {
@@ -722,7 +757,7 @@ h1{
     background-color: #c9bbbb;
     width: 91px;
     height: 51px;
-} 
+}
 
 .personal-info {
     display: flex;
@@ -755,7 +790,7 @@ h1{
 }
 
 .personal-contact i,
-.personal-tittle i  {
+.personal-tittle i {
     margin-right: 1rem;
     color: #2153FF;
 }
@@ -772,14 +807,15 @@ h1{
     gap: 4rem;
     margin-block: 4rem;
 }
+
 .personal-dis h2 {
     margin-bottom: 1rem;
 }
 
 
 .personalSkills li {
-  list-style: none;
-  padding: 1rem;
+    list-style: none;
+    padding: 1rem;
 }
 
 .personalSkills span {
@@ -807,10 +843,11 @@ h1{
 
 .bar:hover {
     box-shadow: 0 14px 28px rgba(9, 15, 195, 0.9), 0 10px 10px rgba(3, 109, 154, 0.22);
-}    
+}
+
 .bar span {
     height: 20px;
-    float:left ;
+    float: left;
     background: #2153FF;
     border-radius: 1rem;
 }
@@ -889,7 +926,8 @@ h1{
     margin-block: 5rem;
 }
 
-.faq-dis h3,p {
+.faq-dis h3,
+p {
     margin-bottom: .5rem;
 }
 
@@ -902,7 +940,7 @@ h1{
 .Testimonials {
     display: flex;
     gap: 3rem;
-    animation: slide 20s  infinite;
+    animation: slide 20s infinite;
 }
 
 @keyframes slide {
@@ -959,7 +997,7 @@ h1{
     font-family: "Playwrite NZ Guides", cursive;
 }
 
-.client-dis .stars  {
+.client-dis .stars {
     color: #f27625;
     font-size: .8rem;
     padding-left: .5rem;
@@ -979,7 +1017,7 @@ h1{
 
 .why-chooseUs {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     margin-block: 3rem;
 }
@@ -995,6 +1033,8 @@ h1{
     gap: .5rem;
     background: linear-gradient(rgba(65, 47, 227, 0.4), rgba(40, 74, 227, 0.3));
     padding: 2rem;
+    width: 450px;
+    height: 300px;
     border-radius: 2rem;
 }
 
@@ -1038,11 +1078,13 @@ h1{
 .innovation h3 {
     font-size: 1.3rem;
 }
+
 .mission-info span,
 .vision-info span {
     font-size: .8rem;
     font-family: "anybody", cursive;
 }
+
 .mission-rate,
 .vision-rate {
     display: flex;
@@ -1071,21 +1113,24 @@ h1{
 
 .our-value {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
 
 
-@media  (min-width: 981px)  {
+@media (min-width: 981px) {
+
+
     .card {
         display: grid;
         place-content: center;
     }
+
     .card--container {
-        grid-template-columns: repeat(3,290px);
+        grid-template-columns: repeat(3, 290px);
     }
 
-    .info--data :nth-child(1){
+    .info--data :nth-child(1) {
         margin-top: -2rem;
     }
 
@@ -1096,17 +1141,19 @@ h1{
     .info--social {
         margin-bottom: -1rem;
     }
-}   
 
 
+}
 
-@media (min-width: 770px) and (max-width: 980px)   {
+@media (min-width: 851px) and (max-width: 980px) {
+
     .card {
         display: grid;
         place-content: center;
     }
+
     .card--container {
-        grid-template-columns: repeat(2,340px);
+        grid-template-columns: repeat(2, 340px);
     }
 
     .team-details {
@@ -1122,155 +1169,241 @@ h1{
 
 /* ========tablet media query======== */
 
-@media  (max-width: 768px) {
+@media (max-width: 850px) {
+
+    .burger {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 23px;
+    }
+
+    .burger span {
+        display: block;
+        margin-bottom: 3px;
+        height: 3px;
+        color: #940000;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #top-btn {
+        display: none;
+    }
+
+    #top1-btn {
+        padding: 0.7rem 1.5rem;
+        font-size: 1rem;
+        color: #FFFFFF;
+        background-color: #2153FF;
+        border: none;
+        border-radius: 0.2rem;
+    }
+
+    #top1-btn:hover {
+        background-color: #0F0A2B;
+        border: 1px solid #2153FF;
+    }
+
+    .navigation-bar {
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 70px;
+        width: 100%;
+        background-color: #130080;
+        justify-content: center;
+        align-items: flex-start;
+        padding-block: 10px;
+        text-align: center;
+        z-index: 1;
+        height: 100vh;
+
+    }
+
+    .navigation-bar .menu-list a {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-bar .menu-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-bar .menu-list .top-btn {
+        margin-right: 60px;
+        padding: 0.5rem 6rem;
+        border: none;
+        border-radius: 0.5rem;
+        text-wrap: nowrap;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 2rem;
+    }
+
+
+    .navigation-bar .menu-list .top-btn:hover {
+        background-color: rgb(0, 18, 218);
+        color: #ffffff;
+    }
+
 
     /* =========about-page========== */
 
-.aboutus-tittle h1 {
-    font-size: 3rem;
-}
-
-.aboutUs-content .pic img {
-    margin: 0;
-}
-.about-us-grid,
-.section5-grid,
-.our-team-grid,
-.faq,
-.why-chooseUs,
-.our-value {
-    grid-template-columns: 1fr;
-}
-
-/* ===========aboutUs-content2 pic========== */
-.img-overlay-1 {   
-    width: 200px;
-    background-color: white;
-    position: absolute;
-    right: 20%;
-    top: 5px;
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    animation: back-and-forth 3s infinite alternate;
-}
-/* =============aboutUs-content3 pic2 */
-
-@keyframes back-and-forth {
-    
-    50% {
-        translate:  40%;
-    }   
-}
-/* ===========section4======= */
-.aboutUs-section4 h2 {
-    font-size: 2.2rem;
-}
-
-#section4-bg img {
-    display: none;
-}
-
-
-.section4-grid {
-    grid-template-columns: 1fr;
-    margin-top: -5rem;
-}
-
-/* ===========section5 ourteam=========== */
-
-.boxes,
-.teams,
-.teams img,
-.team-info,
-.team-smlinks {
-    margin:  0;
-}
-
-.counter {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    margin: auto;
-}
-
-.section5-content1 .pic3 {
-    margin-right: 4rem;
-}
-
-/* ==============team details============= */
-
-.team-details {
-    display: flex;
-    flex-direction: column;
-}
-
-.team-details #img {
-    margin: auto;
-}
-.personal-links {
-    margin: 1rem;
-}
-
-
-.personal-contact {
-    flex-direction: column;
-    font-size: 1.3rem;
-}
-
-
-.card--container {
-    grid-template-columns: 400px;
-}
-
-.card--data {
-    margin-bottom: 1.5rem;
-}
-.info .info--data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.info .info--data p {
-    margin-block: 1rem;
-}
-
-.info--btn {
-    margin-top: .5rem;
-}
-
-.info--social {
-    margin-bottom: 3rem;
-    margin-left: 6.3rem;
-}
-}
-
-
-
-
-
-
-
-@media  (max-width: 480px) {
-    header {
-        display:none;
+    .aboutus-tittle h1 {
+        font-size: 3rem;
+        margin: auto;
     }
+
+    .aboutUs-content .pic img {
+        /* margin: 0; */
+    }
+
+    .about-us {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ===========aboutUs-content2 pic========== */
+    .img-overlay-1 {
+        width: 200px;
+        background-color: white;
+        position: absolute;
+        right: 20%;
+        top: 5px;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        animation: back-and-forth 3s infinite alternate;
+    }
+
+    /* =============aboutUs-content3 pic2 */
+
+    @keyframes back-and-forth {
+
+        50% {
+            translate: 40%;
+        }
+    }
+
+    /* ===========section4======= */
+    .aboutUs-section4 h2 {
+        font-size: 2.2rem;
+    }
+
+    #section4-bg img {
+        display: none;
+    }
+
+
+    .section4-grid {
+        grid-template-columns: 1fr;
+        margin-top: -5rem;
+    }
+
+    /* ===========section5 ourteam=========== */
+
+    .boxes,
+    .teams,
+    .teams img,
+    .team-info,
+    .team-smlinks {
+        margin: 0;
+    }
+
+    .counter {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin: auto;
+    }
+
+    .section5-content1 .pic3 {
+        margin-right: 4rem;
+    }
+
+    /* ==============team details============= */
+
+    .team-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-details #img {
+        margin: auto;
+    }
+
+    .personal-links {
+        margin: 1rem;
+    }
+
+
+    .personal-contact {
+        flex-direction: column;
+        font-size: 1.3rem;
+    }
+
+
+    .card--container {
+        grid-template-columns: 400px;
+    }
+
+    .card--data {
+        margin-bottom: 1.5rem;
+    }
+
+    .info .info--data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info .info--data p {
+        margin-block: 1rem;
+    }
+
+    .info--btn {
+        margin-top: .5rem;
+    }
+
+    .info--social {
+        margin-bottom: 3rem;
+        margin-left: 6.3rem;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
 
     /* =========about-page========== */
 
     .aboutus-tittle h1 {
         font-size: 2rem;
     }
+
     .about-us-grid {
         grid-template-columns: 1fr;
     }
-/* =============aboutUs-content3 pic2 */
-    .img-overlay-1, 
-    .img-overlay-2 {   
-        width: 150px;   
+
+    /* =============aboutUs-content3 pic2 */
+    .img-overlay-1,
+    .img-overlay-2 {
+        width: 150px;
     }
-/* ===========section4=======  */
+
+    /* ===========section4=======  */
     .aboutUs-section4 h2 {
         font-size: 1.7rem;
     }
@@ -1278,33 +1411,35 @@ h1{
 
     /* ==========section5 our team =============== */
 
-    .section5-content1 .img-overlay-3  {
+    .section5-content1 .img-overlay-3 {
         margin-left: 0;
     }
-/* ==============our team section======== */
+
+    /* ==============our team section======== */
     .card--container {
         grid-template-columns: 350px;
     }
-    
+
     .card--data {
         margin: 0;
     }
+
     .info .info--data {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .info .info--data p {
         margin-block: 1rem;
     }
-    
-    
+
+
     .info--social {
         margin-bottom: -1rem;
         margin-left: 5rem;
     }
-    
+
 
     /* ==========team details======== */
     .personal-contact {
@@ -1315,5 +1450,6 @@ h1{
 
 
 }
-    
 
+
+# Nova-Serve
