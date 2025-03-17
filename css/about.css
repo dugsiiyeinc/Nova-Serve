@@ -46,73 +46,10 @@ img {
 }
 
 
-.burger {
-    display: none;
-}
-
-.burger {
-    display: none;
-    width: 22px;
-    height: 4px;
-
-}
-
-.burger span {
-    display: none;
-    margin-bottom: 3px;
-    height: 3px;
-    color: #940000;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-}
-
-.navigation-bar.active {
-    display: flex;
-}
-
-#top1-btn {
-    display: none;
-}
-
-/* .light-effect {
-    position: absolute;
-    width: 700px;
-    height: 300px;
-    background: linear-gradient(120deg, rgba(255, 255, 255, 1), rgba(33, 83, 255, 0.5), transparent);
-    filter: blur(40px);
-    mix-blend-mode: overlay;
-    animation: moveLight 7s infinite linear alternate;
-}
-
-@keyframes moveLight {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-
-    100% {
-        transform: translate(50%, 50%) rotate(20deg);
-    }
-} */
-
-
-/* .light-effec2 {
-    position: absolute;
-    width: 900px;
-    height: 600px;
-    left: 0; */
-/* right: 100px; */
-/* background: linear-gradient(120deg, rgba(255, 255, 255, 1), rgba(33, 83, 255, 1), transparent);
-    filter: blur(40px);
-    mix-blend-mode: overlay;
-    animation: moveLight 7s infinite linear alternate;
-    margin-left: -40rem;
-    top: -30rem;
-} */
-
 .box-container {
     width: 1360px;
     margin: 0 auto;
-}
+ } 
 
 
 .top-menu {
