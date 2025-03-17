@@ -116,8 +116,10 @@ img {
 
 /* ========about ushero-tittle styele======= */
 .aboutus-hero {
-   background: url("https://media.istockphoto.com/id/1402604850/photo/the-word-about-us-on-wooden-cubes-business-communication-and-information.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZxHwjIBsTx_is1_JLT02ohMUn0okczh8xPGWA3ptwJI=") center/cover no-repeat;
-   height: calc(100VH - 80px);
+   background:
+   url("https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.webp?a=1&b=1&s=612x612&w=0&k=20&c=3ByePiHIuSLInPFn1V7fClxV67CrUFXmW0MC1JzKeHA=") center/cover no-repeat;
+   height: calc(120vh - 80px);
+   border-radius: 1rem;
 }
 
 /* ========about us grid======= */
@@ -1125,7 +1127,7 @@ img {
 
 
 .one-line h1{
-    font-size: 10rem;
+    font-size: 15rem;
     color:rgb(40, 74, 223);
 
 }
@@ -1281,10 +1283,6 @@ img {
 
 .footer-section {
     grid-template-columns: repeat(2,1fr);
-}
-
-.one-line h1 {
-    font-size: 7.5rem;
 }
 
 
@@ -1455,8 +1453,5 @@ width: 58%;
     grid-template-columns: 1fr;
 }
 
-.one-line h1 {
-    font-size: 4.5rem;
-}
 
 }
