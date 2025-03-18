@@ -107,3 +107,11 @@ img {
     background-color: #0F0A2B;
     border: 1px solid #2153FF;
 }
+
+
+/* =========blog--hero========== */
+
+.blog--hero {
+    background: url("https://tse2.mm.bing.net/th?id=OIP.vlGOyc36BFyC_EA6CtEmoQHaDQ&pid=Api&P=0&h=180")center/cover no-repeat;
+    height: calc(100vh - 80px);
+}
