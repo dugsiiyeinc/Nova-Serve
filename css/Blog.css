@@ -187,6 +187,54 @@ input {
 
 
 
+.blog--grid {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 3rem;
+    padding: 3rem 2rem;
+}
+
+.blog--img img {
+    border-radius: .5rem;
+    
+}
+
+.blog--img1 {
+    position: relative;
+}
+
+
+.blog--1 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 1.5rem;
+    background-color: #663333;
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+}
+
+.absolute-date {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -17px;
+    left: 15px;
+    width: 15%;
+
+}
+
+.absolute-date #number {
+    background: #7444fd;
+    color: #fff;
+    border-radius: 2rem;
+    display: flex;
+    place-content: center;
+}
+    
+
+
+
  @media (min-width: 601px) and (max-width: 1110px) {
     .box-container {
         width: 95%;
