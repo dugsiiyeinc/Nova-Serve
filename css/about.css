@@ -46,19 +46,11 @@ img {
 }
 
 
-/* Container */
 .box-container {
-    width: 100%;
-    max-width: 1360px;
+    width: 1360px;
     margin: 0 auto;
-    /* padding: 20px; */
-    /* background-color: white; */
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
-}
+ } 
 
-#top1-btn {
-    display: none;
-}
 
 .top-menu {
     display: flex;
@@ -78,7 +70,7 @@ img {
 
 .menu-list {
     display: flex;
-    margin-right: 8rem;
+    flex-direction: row;
     gap: 2rem;
 }
 
@@ -111,14 +103,21 @@ img {
     border: 1px solid #2153FF;
 }
 
+/* Container */
+.box-container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    /* background-color: white; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
 
 
 /* ========about ushero-tittle styele======= */
 .aboutus-hero {
-   background:
-   url("https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.webp?a=1&b=1&s=612x612&w=0&k=20&c=3ByePiHIuSLInPFn1V7fClxV67CrUFXmW0MC1JzKeHA=") center/cover no-repeat;
-   height: calc(120vh - 80px);
-   border-radius: 1rem;
+   background: url("https://media.istockphoto.com/id/1402604850/photo/the-word-about-us-on-wooden-cubes-business-communication-and-information.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZxHwjIBsTx_is1_JLT02ohMUn0okczh8xPGWA3ptwJI=") center/cover no-repeat;
+   height: calc(100VH - 80px);
 }
 
 /* ========about us grid======= */
@@ -1284,6 +1283,10 @@ img {
     grid-template-columns: repeat(2,1fr);
 }
 
+.one-line h1 {
+    font-size: 6rem;
+}
+
 
 }
 
@@ -1450,6 +1453,9 @@ width: 58%;
 
 .footer-section {
     grid-template-columns: 1fr;
+}
+.one-line h1 {
+    font-size: 4.5rem;
 }
 
 
