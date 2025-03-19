@@ -97,14 +97,10 @@ img {
 
 }
 
-.navigation-bar.active {
-    display: flex;
-}
 
 
 .menu-list {
     display: flex;
-    flex-direction: row;
     gap: 2rem;
 }
 
@@ -150,7 +146,6 @@ img {
 
 /* ========about ushero-tittle styele======= */
 .aboutus-hero {
-    background: url("https://media.istockphoto.com/id/1402604850/photo/the-word-about-us-on-wooden-cubes-business-communication-and-information.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZxHwjIBsTx_is1_JLT02ohMUn0okczh8xPGWA3ptwJI=") center/cover no-repeat;
     height: calc(100VH - 80px);
 
 }
@@ -215,7 +210,6 @@ img {
 .section5-content #tittle,
 .our-team #tittle,
 .team-banner #tittle,
-.Testimonial #tittle,
 .why-choseUs #tittle,
 .our-values #tittle {
     background-color: #e6ddff;
@@ -229,7 +223,6 @@ img {
 .section5-content #tittle img,
 .our-team #tittle img,
 .team-banner #tittle img,
-.Testimonial #tittle img,
 .why-choseUs #tittle img {
     width: 15px;
     margin-left: .5rem;
@@ -241,7 +234,6 @@ img {
 .section5-content h2,
 .our-team h2,
 .team-banner h2,
-.Testimonial h2,
 .why-choseUs h2,
 .our-values h2 {
     font-size: 2.5rem;
@@ -368,7 +360,6 @@ img {
 .aboutUs-section4,
 .our-team,
 .team-banner,
-.Testimonial,
 .why-choseUs,
 .our-values {
     display: flex;
@@ -382,7 +373,6 @@ img {
 .aboutUs-section4 h2,
 .our-team h2,
 .team-banner h2,
-.Testimonial h2,
 .why-choseUs h2,
 .our-values h2 {
     text-align: center;
@@ -1165,7 +1155,7 @@ img {
 
 
 .one-line h1 {
-    font-size: 15rem;
+    font-size: 12rem;
     color: rgb(40, 74, 223);
 
 }

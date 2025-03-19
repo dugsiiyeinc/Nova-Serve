@@ -99,7 +99,6 @@ img {
 
 .menu-list {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-right: 8rem;
     gap: 2rem;
@@ -207,7 +206,7 @@ input {
 
 .latest-articles #active {
     display: flex;
-    place-content: center;
+    place-items: center;
     padding-top: .2rem;
     height: 30px;
     width: 40px;
@@ -284,6 +283,10 @@ input {
     background-color: #3e327d;
 }
 
+.blog--1.tablet-only {
+    display: none;
+}
+
 .absolute-date #tittle {
     display: block;
     position: absolute;
@@ -316,7 +319,7 @@ input {
 .author-img img {
     width: 45px;
     border-radius: 50%;
-    margin-bottom: .5rem;
+    margin-bottom: -.5rem;
 
 }
 
@@ -469,7 +472,7 @@ input {
 
 
 .one-line h1 {
-    font-size: 15rem;
+    font-size: 12rem;
     color: rgb(40, 74, 223);
 
 }
@@ -521,6 +524,7 @@ input {
         background-color: #2153FF;
         border: none;
         border-radius: 0.2rem;
+        margin-left: 7rem;
     }
 
     #top1-btn:hover {
@@ -551,6 +555,7 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 7rem;
     }
 
     .navigation-bar .menu-list {
@@ -593,7 +598,9 @@ input {
         font-size: 3rem;
     }
 
-
+    .blog--1.tablet-only {
+        display: block;
+    }
 
     .app-info .blog-details p {
         display: flex;
@@ -617,7 +624,7 @@ input {
 
 
     .one-line h1 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
 
@@ -666,6 +673,7 @@ input {
         background-color: #2153FF;
         border: none;
         border-radius: 0.2rem;
+        margin-left: 8rem;
     }
 
     #top1-btn:hover {
@@ -696,6 +704,7 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 8rem;
     }
 
     .navigation-bar .menu-list {
@@ -720,6 +729,10 @@ input {
     .navigation-bar .menu-list .top-btn:hover {
         background-color: rgb(0, 18, 218);
         color: #ffffff;
+    }
+
+    .blog--1.tablet-only {
+        display: block;
     }
 
 
@@ -777,6 +790,6 @@ input {
     }
 
     .one-line h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 }
