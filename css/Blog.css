@@ -499,6 +499,7 @@ input {
         position: absolute;
         right: 20px;
         top: 60px;
+    }
 
     .burger span {
         display: block;
@@ -581,6 +582,7 @@ input {
     #top-btn {
         display: none;
     }
+
     /* =========b;og section======== */
 
     .blog--grid {
@@ -591,13 +593,23 @@ input {
         font-size: 3rem;
     }
 
-    
 
-.app-info .blog-details p {
-    display: flex;
-    justify-content: center;
-    font-size: 1.2rem;
-}
+
+    .app-info .blog-details p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    .blog--tittle h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .blog--tittle p {
+        font-size: .9rem;
+        margin-bottom: 1rem;
+    }
 
     .footer-section {
         grid-template-columns: 1fr 1fr;
@@ -605,7 +617,7 @@ input {
 
 
     .one-line h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
 
@@ -626,7 +638,7 @@ input {
         display: none;
     }
 
-    
+
     .burger {
         display: block;
         position: absolute;
@@ -719,22 +731,22 @@ input {
         font-size: 3rem;
     }
 
-    
-.blog-headline {
-    margin-top: -8rem;
-}
 
-.app-info .blog-details h1 {
-    font-size: 2rem;
-}
+    .blog-headline {
+        margin-top: -8rem;
+    }
 
-.app-info .blog-details h2 {
-    font-size: 1.2rem;
-}
+    .app-info .blog-details h1 {
+        font-size: 2rem;
+    }
 
-.app-info .blog-details p {
-    font-size: 1rem;
-}
+    .app-info .blog-details h2 {
+        font-size: 1.2rem;
+    }
+
+    .app-info .blog-details p {
+        font-size: 1rem;
+    }
 
     .blog--grid {
         grid-template-columns: 1fr;
@@ -743,6 +755,16 @@ input {
     .blog--img {
         width: 100%;
         margin: auto;
+    }
+
+    .blog--tittle h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .blog--tittle p {
+        font-size: .9rem;
+        margin-bottom: 1rem;
     }
 
     .author-img img {
