@@ -2199,6 +2199,68 @@ body {
 
 
 
+/* pricing page */
+
+
+.hero-pricing{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-inline: 5rem;
+    margin-block: 5rem;
+}
+
+.hero-pricing h2{
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.hero-pricing p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hero-row{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-lock{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    background-color: #130080;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.4rem;
+}
+
+
+.hero-lock img{
+    width:30px
+   
+}
+
+.hero-lock h1{
+    font-size: 1rem;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 2rem;
+    
+}
+
+
+
+
+
+
+
     /* Responsive sections */
 
 
