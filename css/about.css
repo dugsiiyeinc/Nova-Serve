@@ -68,6 +68,11 @@ img {
 
 }
 
+.navigation-bar.active {
+    display: flex;
+}
+
+
 .menu-list {
     display: flex;
     flex-direction: row;
