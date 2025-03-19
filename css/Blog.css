@@ -305,16 +305,28 @@ input {
 .author-info {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
-.author-info span {
+.author-info :nth-child(1), 
+.author-info :nth-child(2) {
+    display: flex;
     font-size: 14px;
-    color: #fff;
+}
+
+.author-info :nth-child(1) i, 
+.author-info :nth-child(2) i {
+    font-size: 1rem;
+    margin-top: .2rem;
+}
+
+.author-info :nth-child(2) i {
+    font-size: .9rem;
+    margin-right: .4rem;
 }
 .author-info i {
     font-size: .8rem;
     color: #32f532;
-    margin-right: .2rem;
+    /* margin-right: .2rem; */
 }
 
 .btn {
