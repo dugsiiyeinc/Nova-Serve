@@ -97,6 +97,11 @@ img {
 
 }
 
+.navigation-bar.active {
+    display: flex;
+}
+
+
 .menu-list {
     display: flex;
     flex-direction: row;
@@ -147,6 +152,7 @@ img {
 .aboutus-hero {
     background: url("https://media.istockphoto.com/id/1402604850/photo/the-word-about-us-on-wooden-cubes-business-communication-and-information.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZxHwjIBsTx_is1_JLT02ohMUn0okczh8xPGWA3ptwJI=") center/cover no-repeat;
     height: calc(100VH - 80px);
+
 }
 
 /* ========about us grid======= */
@@ -1408,6 +1414,10 @@ img {
         font-size: 6rem;
     }
 
+.one-line h1 {
+    font-size: 6rem;
+}
+
 
 }
 
@@ -1654,15 +1664,14 @@ img {
     .test-1-section {
         grid-template-columns: 1fr;
     }
+  
+.footer-section {
+    grid-template-columns: 1fr;
+}
+.one-line h1 {
+    font-size: 4.5rem;
+}
 
-
-    .footer-section {
-        grid-template-columns: 1fr;
-    }
-
-    .one-line h1 {
-        font-size: 4.5rem;
-    }
 
 
 }
