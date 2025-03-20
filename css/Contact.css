@@ -532,6 +532,15 @@ textarea::placeholder {
         font-size: 1rem ;
     }
 
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form {
+        margin: auto;
+    }
+
 }
 
 
@@ -647,6 +656,35 @@ textarea::placeholder {
         font-size: 2.5rem;
     }
 
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form {
+       width: 400px;
+       margin: auto;
+    }
+
+    .form input {
+        width: 350px;
+    }
+    .form .child input {
+        width: 165px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+
+    .btn {
+        width: 300px;
+        margin-left: 2rem;
+    }
+
+
+    .author h1 {
+        font-size: 1.3rem;
+    }
     
 
 }
