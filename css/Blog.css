@@ -792,4 +792,8 @@ input {
     .one-line h1 {
         font-size: 4.5rem;
     }
+
+    .last-footer h1 {
+        font-size: .7rem;
+    }
 }

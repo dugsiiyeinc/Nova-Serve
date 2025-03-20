@@ -138,17 +138,11 @@ img {
     width: 100%;
     max-width: 1360px;
     margin: 0 auto;
-    /* padding: 20px; */
-    /* background-color: white; */
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
 }
 
 
 /* ========about ushero-tittle styele======= */
-.aboutus-hero {
-    height: calc(100VH - 80px);
 
-}
 
 /* ========about us grid======= */
 .about-us-grid {
@@ -1660,6 +1654,10 @@ img {
 }
 .one-line h1 {
     font-size: 4.5rem;
+}
+
+.last-footer h1 {
+    font-size: .7rem;
 }
 
 
