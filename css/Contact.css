@@ -470,6 +470,11 @@ img {
         transform: scale(1);
     }
 
+    .contactHero-info h1,
+    .contact-tittle h1 {
+        font-size: 2.5rem;
+    }
+
     
 
 }
