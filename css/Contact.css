@@ -659,6 +659,14 @@ textarea::placeholder {
         margin: auto;
     }
 
+    .footer-section {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .one-line h1 {
+        font-size: 7rem;
+    }
+
 }
 
 
@@ -804,5 +812,17 @@ textarea::placeholder {
         font-size: 1.3rem;
     }
     
+
+    .footer-section {
+        grid-template-columns: 1fr;
+    }
+
+    .one-line h1 {
+        font-size: 4.5rem;
+    }
+
+    .last-footer h1 {
+        font-size: .7rem;
+    }
 
 }
