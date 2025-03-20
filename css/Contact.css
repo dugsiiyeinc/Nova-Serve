@@ -257,7 +257,7 @@ img {
     background: #110c2e;
     box-shadow: 2px 4px  7px 6px #130080 ;
     width: 550px;
-    height: 700px;
+    height: 800px;
     padding-left: 2rem;
     padding-top:2rem;
     border-radius: 2rem;
@@ -315,6 +315,32 @@ textarea::placeholder {
     color: #78787a;
     font-weight: 550;
     font-style: italic;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    width: 500px;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: #472beb;
+    border: none;
+    font-family: anybody;
+    font-style: italic;
+    transform: 5s;
+}
+
+.btn i {
+    margin-left: .5rem;
+    rotate: 15deg;
+    transform: 5s;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+}
+
+.btn i:hover {
+    transform: scale(2);
 }
 
 
