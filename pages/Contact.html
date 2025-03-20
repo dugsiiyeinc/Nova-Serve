@@ -113,24 +113,25 @@
     </div>
 
     <div class="contact-grid box-container">
-        <form action="#" class="form">
+        <form  action="#" class="form">
             <h1>Send Us a massage</h1>
             <p>Fill out the form below and we'll get back to you as soon as possible.</p>
             
             <div class="child">
                 <span>
                     <label for="">Full Name</label>
-                    <input type="text" placeholder="shiiqaalow" required>
+                    <input type="text" name="text" placeholder="shiiqaalow" required>
                 </span>
+
                 <span>
                     <label for="">Phone Number</label>
-                    <input type="number" placeholder="+276-xxx-xxxx" required>
+                    <input type="number" name="number" placeholder="+276-xxx-xxxx" required>
                 </span>
             </div>
-            
+           
             <span>
                 <label for="">Email</label>
-                <input type="email" placeholder="shiiqaalow@gmail.com" required>
+                <input type="email" name="email" placeholder="shiiqaalow@gmail.com" required>
             </span>
 
             <span>
@@ -140,14 +141,56 @@
 
             <span>
                 <label for="">Massage</label>
-                <textarea name="" placeholder="Tell us more about your inquiry..."></textarea>
+                <textarea name="msg" placeholder="Tell us more about your inquiry..."></textarea>
             </span>
+
             <div class="submit-btn">
                 <button class="btn">Send Massage <i class="fa-solid fa-paper-plane"></i></button>
                 
             </div>
             
         </form>
+
+
+        <div class="contactBox">
+            <h1>Other Ways to Connect</h1>
+            <p>Choose the method that works best for you. We're here to help!</p>
+
+            <div class="support">
+                <div class="support-mail">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="support-tittle">
+                     <h3>Email Support</h3>
+                     <p>Get a response within 24 hours</p>
+                     <h4>shiiqaalow@gmail.com</h4>
+                </div>
+
+            </div>
+            <div class="chat">
+                <div class="whatsapp-chat">
+                    <i class="fa-solid fa-mobile-button"></i>
+                </div>
+                <div class="whatsapp-tittle">
+                     <h3>WhatsApp Chat</h3>
+                     <p>Quick response on WhatsApp</p>
+                     <h4>+276 xxx xxxx</h4>
+                </div>
+
+            </div>
+            <div class="office">
+                <div class="office-address">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="office-tittle">
+                     <h3>Virtual Office</h3>
+                     <p>Connect with us online</p>
+                     <h4>Always Available</h4>
+                </div>
+
+            </div>
+        </div>
+
     </div>
 
     <script src="../pages/main.js"></script>
