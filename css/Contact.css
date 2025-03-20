@@ -134,6 +134,62 @@ img {
     border: 1px solid #2153FF;
 }
 
+/* =========contactHer0-section=========== */
+
+.contactHero--hero {
+    
+}
+.contactHero-info i {
+    font-size: 1rem;
+    margin-right: .5rem;
+    color: #fff;
+}
+.contactHero-info  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    margin-block: 5rem;
+}
+
+.contact-dis {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2153FF;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    font-size: .8rem;
+    background: #130080;
+}
+
+.contact-dis:hover {
+    background: #3722ab;
+    cursor: pointer;
+}
+
+.contactHero-info h1 {
+    font-size: 4rem;
+}
+.contactHero-info h1:hover, 
+.contactHero-info span:hover {
+    color: #2153FF;
+    cursor: pointer;
+}
+.contactHero-info p {
+    font-size: 1.5rem;
+}
+
+.contactHero-info span {
+    font-style: italic;
+    color: #fff;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+
+
 
 
 
