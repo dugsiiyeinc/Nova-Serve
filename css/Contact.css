@@ -249,6 +249,76 @@ img {
     color: #1cd11c;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-block: 4rem;
+    background: #110c2e;
+    box-shadow: 2px 4px  7px 6px #130080 ;
+    width: 550px;
+    height: 700px;
+    padding-left: 2rem;
+    padding-top:2rem;
+    border-radius: 2rem;
+}
+
+.form span  {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: #fff;
+    width: 300px;
+}
+
+
+input::placeholder {
+    font-size: 1rem;
+    color: #78787a;
+    font-weight: 550;
+    font-style: italic;
+}
+
+.form .child {
+    display: flex;
+}
+
+.form .child input {
+    width: 225px;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+input:hover,
+textarea:hover {
+    border: 3px solid #2153FF;
+    background: #201272;
+    color: #fff;
+    cursor: pointer;
+}
+
+span input {
+    width: 490px;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+textarea {
+    width: 490px;
+    padding-bottom: 10rem;
+    border: 5px double #2153FF;
+}
+
+textarea::placeholder {
+    padding-top: .5rem;
+    font-size: 1rem;
+    color: #78787a;
+    font-weight: 550;
+    font-style: italic;
+}
+
+
+
 
 
 
