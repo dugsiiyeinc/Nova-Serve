@@ -188,6 +188,36 @@ img {
     cursor: pointer;
 }
 
+/* ============contactUs-grid ssection======== */
+
+.contactUs-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    text-align: center;
+    margin-block: 4rem;
+}
+
+.contact-us {
+    box-shadow: 0 7px 8px 11px #110c2e;
+    padding: 5rem 4rem;
+    border: 1px solid #170f44;
+    border-radius: 1rem;
+    transform: .4s;
+}
+
+
+.contact-us:hover {
+    background-color: #201272;
+    border: 1px solid #2153FF;
+    transform: scale(1.1);
+}
+
+.address-info h1,
+.mail-info h1,
+.phone-info h1 {
+    margin-bottom: 1rem;
+}
 
 
 
