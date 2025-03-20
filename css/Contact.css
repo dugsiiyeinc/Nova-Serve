@@ -249,13 +249,22 @@ img {
     color: #1cd11c;
 }
 
+/* ==========contatgrid section============= */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 3rem;
+    margin-block: 4rem;   
+}
+
+
 .form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-block: 4rem;
     background: #110c2e;
-    box-shadow: 2px 4px  7px 6px #130080 ;
+    box-shadow: 2px 4px  7px 6px #130080;
     width: 550px;
     height: 800px;
     padding-left: 2rem;
@@ -278,6 +287,7 @@ input::placeholder {
     font-weight: 550;
     font-style: italic;
 }
+/* ======form====== */
 
 .form .child {
     display: flex;
@@ -341,6 +351,72 @@ textarea::placeholder {
 
 .btn i:hover {
     transform: scale(2);
+}
+
+/* ========contact-box====== */
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-box i {
+    color: #2153FF;
+    font-size: 3rem;
+    background: #fff;
+    border-radius: 1rem;
+    padding: .3rem .6rem;
+}
+
+.contact-box i:hover {
+    color: #fff;
+    background: #2153FF;
+}
+
+.support-mail i {
+    font-size: 2.5rem;
+}
+
+.support,
+.chat,
+.office{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 4px  7px 6px #130080;
+    transform: 4s;
+}
+
+.support:hover,
+.chat:hover,
+.office:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-family: anybody;
+    font-style: italic;
+    text-decoration: line-through;
+    background: #35498b;
+    border-radius: 1rem;
+}
+
+
+.author img #man-icon {
+    margin-right: 2rem;
+}
+
+
+
+.author img {
+    width: 50px;
+    margin-left: 2rem;
+    border-radius: 2rem;
 }
 
 
