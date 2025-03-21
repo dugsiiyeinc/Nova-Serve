@@ -1,8 +1,5 @@
-# FULL-PAGE PREVIEW
-
-![Alt text for the image](images/full-page%20img.jpg)
-
-
+# HERO SECTION 
+![Alt text for the image](images/Hero-section%20.png)
 # NovaServe - Professional Web Service Platform
 
 ## 🌍 Introduction
@@ -35,6 +32,19 @@ NovaServe is built purely with front-end technologies, ensuring high performance
 - **HTML** – Structuring the content and layout.
 - **CSS** – Enhancing visual aesthetics and responsiveness.
 - **JavaScript** – Adding interactivity and dynamic elements.
+
+## Color Palette
+
+| Element      | Color Code  |
+|--------------|-------------|
+| Background   |   #0F0A2B |
+| Heading      | #FFFFFF   |
+| Paragraph    | #9DA3B4   |
+| other-bg     |  #030014  |
+| Primary      | #2153FF   |
+| Extra        | #FDA702   |
+
+   
 
 ## 🛠️ How to Use
 1. **Download or Clone the Project**
@@ -75,4 +85,11 @@ For any queries or feedback, reach out via:
 
 ## 🏆 License
 NovaServe is an open-source project. Feel free to modify and use it according to your needs.
+
+
+
+# FULL-PAGE PREVIEW
+
+![Alt text for the image](images/full-page%20img.jpg)
+
 
