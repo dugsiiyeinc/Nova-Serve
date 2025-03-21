@@ -168,13 +168,14 @@ img {
     gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .wrap {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: green;
+    background-color: #150c41;
     padding: .5rem;
     border-radius: 1rem;
     transform: 4s;
@@ -191,15 +192,15 @@ img {
 .wrap i {
     font-size: 3rem;
     margin-right: 1rem;
-    background: #fff;
-    color: #2153FF;
+    background: #2153FF;
+    color: #fff;
     border-radius: 2rem;
     padding: .6rem;
 }
 
 .wrap i:hover {
-    color: #fff;
-    background-color: #2153FF;
+    color: #2153FF;
+    background-color: #fff;
 }
 
 .customers
@@ -644,7 +645,7 @@ img {
     background: linear-gradient(rgba(104, 114, 46, 0.4), rgba(18, 169, 186, .5));
     backdrop-filter: blur(12px);
     padding: 3rem 1.5rem 1.5rem;
-    clip-path: circle(8px at 88% 10%);
+    clip-path: circle(4px at 88% 8%);
     transition: clip-path .5s ease-in-out;
 }
 

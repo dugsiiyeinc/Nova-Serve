@@ -179,6 +179,11 @@ img {
 input {
     padding: .5rem;
     font-size: 1.2rem;
+    transform: 5s;
+}
+input:hover {
+  border: 3px solid #2153FF;
+  transform: scale(1.03);
 }
 
 .latest-articles {
@@ -193,20 +198,24 @@ input {
 
 
 .latest-articles h4 {
+    display: flex;
+    align-items: center;
     background: transparent;
     border: 1px solid #2153FF;
     padding: 0 1rem;
     border-radius: 1rem;
+    transform: 4s;
 }
 
 .latest-articles h4:hover {
     background: #2153FF;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .latest-articles #active {
     display: flex;
-    place-items: center;
+    justify-content: center;
     padding-top: .2rem;
     height: 30px;
     width: 40px;
@@ -492,7 +501,7 @@ input {
 
 
 
-@media (min-width: 751px) and (max-width: 1100px) {
+@media (min-width: 765px) and (max-width: 1100px) {
     .box-container {
         width: 95%;
     }
@@ -635,7 +644,7 @@ input {
 
 
 
-@media (min-width: 200px) and (max-width: 750px) {
+@media (min-width: 200px) and (max-width: 764px) {
     .box-container {
         width: 95%;
     }
