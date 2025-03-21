@@ -205,10 +205,11 @@ img {
 .customers
 
 
+
 /* ========about us grid======= */
 .about-us-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:repeat(2,1fr);
     gap: 4rem;
     margin-block: 3rem;
 }
