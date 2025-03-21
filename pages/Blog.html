@@ -949,14 +949,16 @@
                 </div>
 
 
-               <form action="" class="form">
+               <form action="https://api.web3forms.com/submit" method="POST" class="form">
                     <h1>Leave A Comment</h1>
                     
+                <input type="hidden" name="access_key" value="862d4bd3-c7e2-4813-95a7-f03422956164">
+
                     <input type="text" name="name" placeholder="Your Name" required>
 
                     <input type="email" name="email" placeholder="Your Email" required>
 
-                    <textarea name="massage" id="" placeholder="Write Massage"></textarea>
+                    <textarea name="massage" id="" placeholder="Write Massage" required></textarea>
 
                     <button class="btn">Post a Comment <i class="fa-arrow-right"></i></button>
 
