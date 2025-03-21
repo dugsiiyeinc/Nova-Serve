@@ -96,8 +96,8 @@ body {
     filter: blur(40px);
     mix-blend-mode: overlay;
     animation: moveLight 7s infinite linear alternate;
-    margin-left: -40rem;
-    top: -30rem;
+    margin-left: -45rem;
+    top: -40rem;
 }
 
 @keyframes moveLight {
@@ -114,6 +114,7 @@ body {
     width: 1360px;
     margin: 0 auto;
  } 
+
 
 
 .top-menu {
@@ -2174,15 +2175,16 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5rem 1rem;
-    background-color: hsla(254, 100%, 56%, 0.1);
+    padding: 4rem 1rem;
+    background-color: hsla(254, 100%, 56%, 0.01);
     border-radius: 0.5rem;
     margin-block: 10rem;
     gap: 1rem;
+    border: 2px solid hsla(236,5%,25%,0.2) ;
 }
 
 .main-cta:hover{
-    background-color: #130080;
+    background-color: #000000;
 
 }
 
@@ -2191,9 +2193,229 @@ body {
 }
 
 .main-cta p{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    
     text-align: center;
 }
+
+
+
+
+/* pricing page */
+
+
+.hero-pricing{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-inline: 5rem;
+    margin-block: 4rem;
+}
+
+.hero-pricing h2{
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+.hero-pricing p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.hero-row{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-lock{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    background-color: hsla(254, 100%, 56%, 0.1);
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.8rem;
+    border: 2px solid #2153FF;
+    margin-top: 1rem;
+}
+.hero-lock:hover{
+    border-radius: 0.5rem;
+    border: 2px solid #FFFFFF;
+}
+
+
+
+.hero-lock img{
+    width:30px
+   
+}
+
+.hero-lock h1{
+    font-size: 1rem;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 2rem;
+    
+}
+
+.pricing-top {
+    color: #2153FF;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 700;
+} 
+
+#price-btn{
+    padding: 1rem 2rem;
+    background-color: #2153FF;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+#price-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#price-btn1:hover{
+    background-color: #2153FF;
+    border:  none;
+   
+}
+
+#price-btn1{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border-radius: 5rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+}
+
+.price-span{
+    padding: 0.2rem 0.5rem;
+    margin: 0 auto;
+    width:28%;
+}
+.price-span:hover{
+    background-color: #efebebd7;
+    border: none;
+    color: #FFFFFF;
+}
+
+.price-span img:hover{
+    width: 60px;
+}
+.price-span img{
+    width: 30px;
+    height: 30px;
+}
+.price-span span{
+    font-size: 1.3rem;
+}
+
+
+.price-h{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 15rem;
+    position: relative;
+    
+}
+
+.price-h h1{
+    background-color: transparent;
+    border-radius: 0.4rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    margin-inline: 18rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.price-h h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.pricing-table{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-block: 10rem;
+    gap: 2rem;
+    position: relative;
+    
+}
+
+.pricing-list{
+    background-color: hsla(254, 100%, 56%, 0.03);
+    /* background-color: black; */
+    border-radius: 0.4rem;
+    padding: 2rem;
+    width: 95%;
+    cursor: pointer;
+    border: 2px solid hsla(236,5%,25%,0.3);
+ 
+}
+
+
+
+.pricing-list:hover{
+    background-color: rgba(2, 6, 76, 0.411);
+    border: 1px solid #2153FF;
+    
+}
+
+.pr-list2{
+    border: 1px solid #2153FF;
+    background-color: black;
+    
+}
+.pricing-list h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.pricing-list h5{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #2153FF;
+}
+.pricing-list h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.pricing-list h3{
+    font-size: 0.8rem;
+}
+.pricing-list h4{
+    font-size: 0.9rem;
+    margin-top: 1.3rem;
+    color: #bcbcbc;
+}
+
+#price-1{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -3698,6 +3920,119 @@ body {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
+
+/* pricing style */
+
+.hero-pricing{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-block:5rem;
+    margin-left: -7rem;
+    width: 80%;
+}
+
+.pricing-top h2{
+    font-size: 4rem;
+}
+
+.pricing-top span{
+    font-size: 4rem;
+ 
+}
+
+
+.price-h{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 15rem;
+    width: 70%;
+    
+}
+
+.price-h h1{
+    background-color: transparent;
+    border-radius: 0.4rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    margin-left: 13rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 32%;
+}
+
+
+.pricing-table{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-block: 10rem;
+    gap: 2rem;
+    width: 60%;
+    padding: 1rem;
+    
+}
+
+.pricing-list{
+    background-color: hsla(254, 100%, 56%, 0.03);
+    /* background-color: black; */
+    border-radius: 0.4rem;
+    padding: 2rem;
+    width: 95%;
+    cursor: pointer;
+    border: 2px solid hsla(236,5%,25%,0.3);
+    width: 100%;
+ 
+}
+
+
+
+.pricing-list:hover{
+    background-color: black;
+    
+}
+
+.pr-list2{
+    border: 1px solid #2153FF;
+    /* background-color: black; */
+    
+}
+.pricing-list h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.pricing-list h5{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #2153FF;
+}
+.pricing-list h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.pricing-list h3{
+    font-size: 0.8rem;
+}
+.pricing-list h4{
+    font-size: 0.9rem;
+    margin-top: 1.3rem;
+    color: #bcbcbc;
+}
+
+#price-1{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 
 
 
@@ -5437,6 +5772,235 @@ border-radius: 50%;
 }
 
 
+
+
+
+/* pricing page */
+
+
+.hero-pricing{
+    display: flex;
+    flex-direction: column;
+    gap:0rem;
+    margin-block: 0rem;
+}
+
+.pricing-top{
+    width: 35%;
+    margin-left: -5rem;
+}
+
+.pricing-top h2{
+    font-size: 2rem;
+    margin-bottom: -2rem;
+}
+
+.pricing-top span{
+    color: #2153FF;
+    font-size: 2rem;
+    font-weight: 700;
+
+} 
+
+
+.hero-pricing p{
+    font-size: 1rem;
+
+
+}
+
+.hero-row{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-left: -30rem;
+  
+}
+
+.hero-lock{
+    display: flex;
+    gap:0.5rem;
+    background-color: hsla(254, 100%, 56%, 0.1);
+    border-radius: 0.5rem;
+    padding: 0.2rem 2rem;
+    border: 2px solid #2153FF;
+    margin-top: 1rem;
+    align-items: center;
+    margin-left: -28.5rem;
+    width: 18%;
+   
+}
+.hero-lock:hover{
+    border-radius: 0.5rem;
+    border: 2px solid #FFFFFF;
+}
+
+
+.hero-lock img{
+    width:30px
+   
+}
+
+.hero-lock h1{
+    font-size: 1.5rem;
+}
+
+.hero-btn{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    width: 25%;
+    
+}
+
+
+#price-btn{
+    padding: 1rem 2rem;
+    background-color: #2153FF;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+#price-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#price-btn1:hover{
+    background-color: #2153FF;
+    border:  none;
+   
+}
+
+#price-btn1{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border-radius: 5rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+}
+
+.price-span{
+    padding: 0.2rem 0.5rem;
+    margin: 0 auto;
+    width:28%;
+}
+.price-span:hover{
+    background-color: #efebebd7;
+    border: none;
+    color: #FFFFFF;
+}
+
+.price-span img:hover{
+    width: 60px;
+}
+.price-span img{
+    width: 30px;
+    height: 30px;
+}
+.price-span span{
+    font-size: 1.3rem;
+}
+
+
+
+
+.price-h{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: -5rem;
+    
+}
+
+.price-h h1{
+    background-color: transparent;
+    border-radius: 0.4rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    /* margin-inline: 18rem; */
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin-left: 6rem;
+}
+.price-h h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.pricing-table{
+    display: grid;
+    grid-template-columns:1fr;
+    margin-block: 10rem;
+    gap: 2rem;
+   padding: 1rem;
+}
+
+.pricing-list{
+    background-color: hsla(254, 100%, 56%, 0.03);
+    /* background-color: black; */
+    border-radius: 0.4rem;
+    padding: 2rem;
+    width: 29%;
+    cursor: pointer;
+    border: 2px solid hsla(236,5%,25%,0.3);
+ 
+}
+
+
+
+.pricing-list:hover{
+    background-color: black;
+    
+}
+
+.pr-list2{
+    border: 1px solid #2153FF;
+    /* background-color: black; */
+    
+}
+.pricing-list h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.pricing-list h5{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-left: -1.5rem;
+}
+.pricing-list h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.pricing-list h3{
+    font-size: 1rem;
+}
+.pricing-list h4{
+    font-size: 1rem;
+    margin-top: 1.3rem;
+    color: #bcbcbc;
+}
+
+#price-1{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid #2153FF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
         
 
 
