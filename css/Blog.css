@@ -179,6 +179,11 @@ img {
 input {
     padding: .5rem;
     font-size: 1.2rem;
+    transform: 5s;
+}
+input:hover {
+  border: 3px solid #2153FF;
+  transform: scale(1.03);
 }
 
 .latest-articles {
@@ -193,20 +198,24 @@ input {
 
 
 .latest-articles h4 {
+    display: flex;
+    align-items: center;
     background: transparent;
     border: 1px solid #2153FF;
     padding: 0 1rem;
     border-radius: 1rem;
+    transform: 4s;
 }
 
 .latest-articles h4:hover {
     background: #2153FF;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .latest-articles #active {
     display: flex;
-    place-items: center;
+    justify-content: center;
     padding-top: .2rem;
     height: 30px;
     width: 40px;
@@ -330,7 +339,6 @@ input {
 .author-info {
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 1rem; */
 }
 
 .author-info :nth-child(1),
@@ -374,7 +382,203 @@ input {
     cursor: pointer;
 }
 
+/* ========blog-details section======== */
 
+.blog-Details {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.blog-container1 {
+    grid-column: 1 / span 2;
+}
+
+
+.blog-container1 img {
+    border-radius: 2rem;
+}
+.blog-container1 #blog-detail-img  {
+    height: 18%;
+}
+
+.blog-admin {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #2153FF;
+    padding-bottom: 2rem;
+}
+.blog-admin span {
+    display: flex;
+   align-items: center;
+   gap: .5rem;
+}
+
+.blog-admin span img {
+    width: 33px;
+}
+
+.blog-admin i {
+    color: #2153FF;
+}
+
+
+.blog-container1 h1 {
+    padding-bottom: 2rem;
+}
+
+.blog-container1 p {
+    line-height: 2rem;
+}
+
+
+.blog-container1 .blog-quote {
+    background: #150c41;
+    padding: 3rem;
+    margin-block: 3rem;
+    border-radius: 1rem;
+    font-style: italic;
+    font-family: anybody;
+    border-left: 5px solid #2153FF;
+    position: relative;
+}
+
+
+.blog-quote img {
+    width: 50px;
+    position: absolute;
+    bottom: 10%;
+    right: 4%;
+}
+
+
+.blog-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 3rem;
+}
+
+.blog-flex img {
+    width: 400px;
+}
+
+.blog-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 2rem;
+    border-top: 1px solid #2153FF;
+    border-bottom: 1px solid #2153FF;
+    padding: 2rem;
+}
+
+.blog-links .tags {
+    display: flex;
+    gap: 2rem;
+}
+
+.blog-links .tags h5  {
+    border: 1px solid #a4a2ad;
+    padding: .5rem 1rem;/
+}
+
+
+.blog-links .tags h5:hover {
+    background: #2153FF;
+}
+
+
+.blog-links .share {
+    display: flex;
+    gap: 1rem;
+}
+
+.blog-links .share i {
+    color: #2153FF;
+    background: #fff;
+    border-radius: 3rem;
+    padding: .5rem
+}
+
+
+.blog-links i:hover {
+    color: #fff;
+    background: #2153FF;
+}
+
+.blog-container1 h3 {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.comments img {
+    width: 90px;
+    border-radius: 5rem;
+}
+
+.comments #img2 {
+    width: 100px;
+    height: 90px;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-block: 2rem;
+    border-bottom: 1px solid #2153FF;
+    padding: 2rem;
+}
+
+
+.customer-info .dis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reply-btn {
+    background: #7444fd;
+    padding: .6rem 2rem;
+    border-radius: 2rem;
+}
+.reply-btn:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #2153FF;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: #150c41;
+    padding: 2rem;
+    width: 480px;
+    border-radius: 2rem;
+}
+
+
+.form input {
+    width: 400px;
+}
+
+.form textarea {
+    width: 400px;
+    height: 200px;
+}
+.form textarea::placeholder {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.form .btn {
+    width: 300px;
+    margin-left: 2rem;
+}
+    
 /* =======footer=========== */
 
 
@@ -433,6 +637,7 @@ input {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 0.2rem;
+    color: black;
 }
 
 .newsletter button:hover {
@@ -492,7 +697,7 @@ input {
 
 
 
-@media (min-width: 751px) and (max-width: 1100px) {
+@media (min-width: 765px) and (max-width: 1100px) {
     .box-container {
         width: 95%;
     }
@@ -635,7 +840,7 @@ input {
 
 
 
-@media (min-width: 200px) and (max-width: 750px) {
+@media (min-width: 200px) and (max-width: 764px) {
     .box-container {
         width: 95%;
     }
