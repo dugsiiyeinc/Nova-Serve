@@ -76,6 +76,11 @@ Although NovaServe currently focuses on front-end development, planned enhanceme
 - Expansion into a more dynamic, database-driven version.
 - Additional template designs for versatility.
 
+## Contributors
+
+- **ABDIRIZAK MOALIM**: Built the Home, Service, and Pricing pages, ensuring a seamless and user-friendly experience.
+- **Eng shiiqalow**: Developed the About, Blog, and Contact pages, enhancing the project's accessibility and engagement.
+
 ## 📩 Contact & Support
 For any queries or feedback, reach out via:
 📧 Email: [support@novaserve.com](mailto:support@novaserve.com)
