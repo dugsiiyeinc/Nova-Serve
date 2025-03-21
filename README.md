@@ -1,3 +1,8 @@
+# FULL-PAGE PREVIEW
+
+![Alt text for the image](images/full-page%20img.jpg)
+
+
 # NovaServe - Professional Web Service Platform
 
 ## 🌍 Introduction
@@ -67,7 +72,7 @@ For any queries or feedback, reach out via:
 🌐 Website: [www.novaserveadd.com](https://www.novaserve.com)
 
 
-![Elevate your digital presence with our top-rated creative services, delivering stunning designs, technical expertise, strategic vision, and high-performance solutions for business growth.](image.png)
+
 ## 🏆 License
 NovaServe is an open-source project. Feel free to modify and use it according to your needs.
 
