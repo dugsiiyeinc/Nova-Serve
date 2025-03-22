@@ -750,6 +750,11 @@ img {
         margin: auto;
     }
 
+    
+    .blog-container2 {
+        margin: auto;
+    }
+
     .footer-section {
         grid-template-columns: 1fr 1fr;
     }
@@ -896,6 +901,7 @@ img {
     
 .form {
     margin-bottom: 3rem;
+    width: 100%;
 }
 
 .form .btn {
@@ -912,6 +918,10 @@ img {
 .comments {
     flex-direction: column;
     align-items: self-start;
+}
+
+.blog-container2 {
+    margin-left: 2rem;
 }
 
 
