@@ -501,7 +501,7 @@ img {
         background-color: #2153FF;
         border: none;
         border-radius: 0.2rem;
-        margin-left: 7rem;
+        /* margin-left: 7rem; */
     }
 
     #top1-btn:hover {
@@ -532,7 +532,7 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 7rem;
+        /* margin-left: 7rem; */
     }
 
     .navigation-bar .menu-list {
