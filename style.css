@@ -32,8 +32,12 @@
 body {
     font-family: "Manrope", sans-serif;
     background-color: #0F0A2B;
+}
 
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 
