@@ -607,7 +607,6 @@ img {
 
 
 
-
 @media (min-width: 200px) and (max-width: 764px) {
     .box-container {
         width: 95%;
@@ -646,7 +645,7 @@ img {
         background-color: #2153FF;
         border: none;
         border-radius: 0.2rem;
-        margin-left: 8rem;
+        /* margin-left: 8rem; */
     }
 
     #top1-btn:hover {
@@ -677,7 +676,7 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 8rem;
+        /* margin-left: 8rem; */
     }
 
     .navigation-bar .menu-list {
@@ -721,6 +720,7 @@ img {
 
     .blog-flex {
         flex-direction: column;
+        gap: 3rem;
     }
 
     .comments {
@@ -733,7 +733,7 @@ img {
 
     
 .form {
-    margin-bottom: 30rem;
+    margin-bottom: 3rem;
 }
 
 .form .btn {

@@ -631,25 +631,6 @@ input:hover {
         margin-bottom: 1rem;
     }
 
-    .blog-Details {
-        grid-template-columns: 1fr;
-    }
-
-
-    .blog-flex {
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    .flex-img1 img,
-    .flex-img2 img {
-        margin: auto;
-        width: 100%;
-    }
-
-    .form {
-        margin: auto;
-    }
 
     .footer-section {
         grid-template-columns: 1fr 1fr;
@@ -830,31 +811,4 @@ input:hover {
         font-size: .7rem;
     }
 
-    .blog-Details {
-        grid-template-columns: 1fr;
-    }
-
-    .blog-links {
-        flex-direction: column;
-        align-items: self-start;
-        gap: 2rem;
-    }
-
-
-
-    .blog-flex {
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    
-.form {
-    margin-bottom: 30rem;
-}
-
-    .flex-img1 img,
-    .flex-img2 img {
-        margin: auto;
-        width: 100%;
-    }
 }
