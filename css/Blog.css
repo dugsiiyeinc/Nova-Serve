@@ -376,6 +376,10 @@ input:hover {
     color: #fff;
 }
 
+.btn a {
+    color: #fff;
+}
+
 
 .btn:hover {
     background: #2153FF;
@@ -819,7 +823,7 @@ input:hover {
     }
 
     .one-line h1 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 
     .last-footer h1 {

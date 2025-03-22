@@ -142,6 +142,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
+    margin-block: 7rem;
 }
 
 .blog-container1 {
@@ -151,9 +152,6 @@ img {
 
 .blog-container1 img {
     border-radius: 2rem;
-}
-.blog-container1 #blog-detail-img  {
-    height: 18%;
 }
 
 .blog-admin {
@@ -317,6 +315,12 @@ img {
 
 .form input {
     width: 400px;
+    height: 40px;
+}
+
+.form input::placeholder {
+    font-size: 1.5rem;
+    padding-left: 1rem;
 }
 
 .form textarea {
@@ -331,8 +335,18 @@ img {
 .form .btn {
     width: 300px;
     margin-left: 2rem;
+    color: #fff;
+    padding: .5rem .4rem;
+    background: transparent;
+    border: 1px solid #2153FF;
+    border-radius: 1rem;
+    background: #2153FF;
 }
 
+
+.form .btn:hover {
+    background: transparent;
+}
     
 /* =======footer=========== */
 
@@ -701,19 +715,31 @@ img {
     }
 
 
- .blog-links .tags {
-    margin-left: -2.5rem;
+ .blog-links .share {
+    margin: auto;
  }
 
     .blog-flex {
         flex-direction: column;
-        gap: 3rem;
+    }
+
+    .comments {
+        flex-direction: column;
+    }
+
+    .comments p {
+        margin-top: 2rem;
     }
 
     
 .form {
     margin-bottom: 30rem;
 }
+
+.form .btn {
+    margin-left: 3rem;
+    padding: 1rem;
+} 
 
 .flex-img1 img,
 .flex-img2 img {
@@ -727,7 +753,7 @@ img {
 }
 
 .one-line h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 }
 
 .last-footer h1 {
