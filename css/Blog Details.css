@@ -877,8 +877,16 @@ img {
     }
 
     .blog-Details #blog-detail-img {
-        width: 445px;
+        width: 460px;
         margin: auto;
+    }
+
+    .blog-container1 h1,p {
+        padding-right: .4rem;
+    }
+
+    .blog-quote {
+        width: 450px;
     }
 
     .blog-links {
