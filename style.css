@@ -32,7 +32,6 @@
 body {
     font-family: "Manrope", sans-serif;
     background-color: #0F0A2B;
-    overflow-x: hidden;
 }
 
 
@@ -4097,7 +4096,6 @@ html, body {
     text-align: center;
     z-index: 1;
     height: 100vh;
-    overflow: hidden;
    
 }
 
@@ -4107,7 +4105,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .navigation-bar .menu-list {
@@ -4115,7 +4112,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .navigation-bar .menu-list .top-btn{

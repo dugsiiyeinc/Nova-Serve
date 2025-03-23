@@ -876,6 +876,11 @@ img {
         grid-template-columns: 1fr;
     }
 
+    .blog-Details #blog-detail-img {
+        width: 445px;
+        margin: auto;
+    }
+
     .blog-links {
         flex-direction: column;
         align-items: self-start;
