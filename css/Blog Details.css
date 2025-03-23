@@ -628,7 +628,7 @@ img {
 
 
 
-@media (min-width: 765px) and (max-width: 1100px) {
+@media (min-width: 501px) and (max-width: 1000px) {
     .box-container {
         width: 95%;
     }
@@ -729,6 +729,12 @@ img {
         grid-template-columns: 1fr;
     }
 
+    .blog-links {
+        flex-direction: column;
+        align-items: self-start;
+        gap: 3rem;
+    }
+
 
     .blog-flex {
         flex-direction: column;
@@ -776,7 +782,7 @@ img {
 
 
 
-@media (min-width: 200px) and (max-width: 764px) {
+@media (min-width: 200px) and (max-width: 500px) {
     .box-container {
         width: 95%;
     }
@@ -885,9 +891,7 @@ img {
         padding-right: .4rem;
     }
 
-    .blog-quote {
-        width: 450px;
-    }
+   
 
     .blog-links {
         flex-direction: column;
