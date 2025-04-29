@@ -278,12 +278,16 @@ img {
 }
 
 .comments {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     gap: 2rem;
     margin-block: 2rem;
     border-bottom: 1px solid #2153FF;
     padding: 2rem;
+}
+
+.comments .customer-info .dis p {
+    color: #9a7c20;
 }
 
 
@@ -475,7 +479,6 @@ img {
 
 .tag {
     background: #150c41;
-    width: 400px;
     height: 250px;
     padding: 1rem;
     border-radius: 1rem;
@@ -497,15 +500,13 @@ img {
 
 .tag .text-wrap {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: .5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
     flex-wrap: wrap;
 }
 
-.tag .text-wrap span {
-    display: flex;
-    gap: 1rem;
-}
 
 
 /* =======footer=========== */
@@ -758,7 +759,10 @@ img {
     }
 
     
-    .blog-container2 {
+    .blog-container2,
+    .search,
+    .category,
+    .recent-posts {
         margin: auto;
     }
 
@@ -799,9 +803,8 @@ img {
         position: absolute;
         right: 20px;
         top: 49px;
-    
-        width: 45px;
-     height: 45px;
+        width: 30px;
+        height: 30px;
 
     }
 
@@ -941,10 +944,36 @@ img {
     width: 100%;
 }
 
+
+.form input,
+.form textarea {
+    width: 340px;
+    margin-left: -1rem;
+}
+
 .form .btn {
-    margin-left: 3rem;
+    margin-left: 1rem;
     padding: 1rem;
-} 
+}
+
+.input-container input,
+.category div {
+    width: 260px;
+}
+
+ .recent-posts  {
+    width: 300px;
+}
+ .recent-posts .date {
+    width: 190px;
+}
+ .recent-posts .date p{
+    font-size: .7rem;
+}
+ .recent-posts .date h4{
+    font-size: .8rem;
+}
+
 
 .flex-img1 img,
 .flex-img2 img {
